@@ -1,4 +1,6 @@
-local-dev-env
-=============
+# Local Development Environment stuff
 
-Local Development Environment Stuff
+Wat gebruik ik allemaal lokaal op mijn ontwikkelomgeving? Welke spullen heb ik geïnstalleerd? Hoe zien mijn local config files er uit?
+
+Hier is dat te vinden! (en kan ik het versiebeheren :) )
+
