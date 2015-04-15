@@ -14,6 +14,7 @@ Installed other software in `D:\apps`
 - IntelliJ (Community Edition)
 - Maven
 - JDK 1.7
+- JDK 1.5 (voor HPUX :( )
 - Dropbox
 - KeePass
 - 7zip
@@ -21,6 +22,9 @@ Installed other software in `D:\apps`
 - Console2 (via Chocolatey)
 - Firefox
 - PuTTY
+- Spark IM (incl JDK anders werkt 't niet)
+- Telegram
+- Beyond Compare 4
 
 ## Settings
 
