@@ -24,7 +24,8 @@ Installed other software in `D:\apps`
 - PuTTY
 - Spark IM (incl JDK anders werkt 't niet)
 - Telegram
-- Beyond Compare 4
+- Beyond Compare 3 (Kadaster has no licence for 4)
+- SQL Developer
 
 ## Settings
 
