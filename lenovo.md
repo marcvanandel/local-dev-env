@@ -26,6 +26,7 @@ Installed other software in `D:\apps`
 - Telegram
 - Beyond Compare 3 (Kadaster has no licence for 4)
 - SQL Developer
+- SoapUI + HermesJMS (OpenSource versions)
 
 ## Settings
 
