@@ -27,6 +27,7 @@ Installed other software in `D:\apps`
 - Beyond Compare 3 (Kadaster has no licence for 4)
 - SQL Developer
 - SoapUI + HermesJMS (OpenSource versions)
+- TortoiseSVN (_deprecated_ ;-)
 
 ## Settings
 
