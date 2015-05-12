@@ -1,0 +1,20 @@
+export GIT_SSH=plink
+alias ll='ls -altr'
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit -m '
+alias gd='git diff'
+alias mcp='clear && echo "mvn clean package" && mvn clean package'
+alias mct='clear && echo "mvn clean test" && mvn clean test'
+alias mcd='clear && echo "mvn clean deploy" && mvn clean deploy'
+alias mp='clear && echo "mvn package" && mvn package'
+alias mci='clear && echo "mvn clean install" && mvn clean install'
+alias e.='explorer .'
+
+export GROOVY_SCRIPT_HOME='/h/apps/scripts/'
+alias g='groovy /h/apps/scripts/g.groovy'
+alias deploy='g d *.war jap4'
+
+alias tcup='/d/Apps/apache-tomcat-7.0.57/bin/startup.sh -Dlog4j.configuration=file:${CATALINA_HOME}/conf/log4j.xml'
+alias tcdown='/d/Apps/apache-tomcat-7.0.57/bin/shutdown.sh'
