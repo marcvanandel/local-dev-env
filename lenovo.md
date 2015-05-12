@@ -19,7 +19,7 @@ Installed other software in `D:\apps`
 - KeePass
 - 7zip
 - [Chocolatey](https://chocolatey.org/)
-- Console2 (via Chocolatey)
+- Console2 (via Chocolatey: `choco install console2`)
 - Firefox
 - PuTTY
 - Spark IM (incl JDK anders werkt 't niet)
