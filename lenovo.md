@@ -6,28 +6,30 @@ De zware, virtuele Java SO PC's gaan met de migratie van ons DataCenter naar Cap
 
 Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`).
 
-Installed other software in `D:\apps`
-
 - Google Chrome
 - Sublime Text 3
 - Git client
 - IntelliJ (Community Edition)
-- Maven
-- JDK 1.7
-- JDK 1.5 (voor HPUX :( )
 - Dropbox
 - KeePass
 - 7zip
 - [Chocolatey](https://chocolatey.org/)
 - Console2 (via Chocolatey: `choco install console2`)
 - Firefox
-- PuTTY
 - Spark IM (incl JDK anders werkt 't niet)
 - Telegram
 - Beyond Compare 3 (Kadaster has no licence for 4)
-- SQL Developer
 - SoapUI + HermesJMS (OpenSource versions)
 - TortoiseSVN (_deprecated_ ;-)
+
+Installed other software in `D:\apps`
+
+- JDK 1.7
+- JDK 1.5 (voor HPUX :( )
+- Maven
+- PuTTY
+- SQL Developer
+- Tomcat 7 (JBoss EWS / JAP4 version: [http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/](http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/libs/))
 
 ## Settings
 
