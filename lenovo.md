@@ -21,6 +21,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - Beyond Compare 3 (Kadaster has no licence for 4)
 - SoapUI + HermesJMS (OpenSource versions)
 - TortoiseSVN (_deprecated_ ;-)
+- Gimp
 
 Installed other software in `D:\apps`
 
