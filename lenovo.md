@@ -6,6 +6,10 @@ De zware, virtuele Java SO PC's gaan met de migratie van ons DataCenter naar Cap
 
 Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`).
 
+**system**
+- Lenovo ThinkPad [Hotkey Features Integration Windows 7](http://support.lenovo.com/nl/nl/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t540p/downloads/DS101334)
+
+**apps**
 - Google Chrome
 - Sublime Text 3
 - Git client
