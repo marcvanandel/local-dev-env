@@ -47,3 +47,11 @@ Installed other software in `D:\apps`
     M2_HOME=D:\apps\apache-maven-3.3.1
     PATH=%JAVA_HOME%\bin;%PATH%;%PUTTY_HOME%;%M2_HOME%\bin
     PUTTY_HOME=D:\apps\PuTTY
+
+**System**
+
+To turn it on or off:
+1.  right-click on desktop -> "Screen resolution"
+2.  click on "Geavanceerde instellingen"
+3.  click on the "Weergave op scherm" tab
+4.  NUM lock AAN "De indicator enkele seconden afbeelden"
