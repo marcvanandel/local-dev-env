@@ -27,6 +27,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - TortoiseSVN (_deprecated_ ;-)
 - Gimp
 - Altova XMLSpy (64bits)
+- HermesJMS (volgens [Oracle AQ wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Oracle_AQ#HermesJMS); including typo fix in `bin/hermes.bat:44`: `if no exist` > `if not exist`)
 
 Installed other software in `D:\apps`
 
@@ -36,7 +37,6 @@ Installed other software in `D:\apps`
 - PuTTY
 - SQL Developer
 - Tomcat 7 (JBoss EWS / JAP4 version: [http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/](http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/libs/))
-- HermesJMS (volgens [Oracle AQ wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Oracle_AQ#HermesJMS))
 
 ## Settings
 
