@@ -22,7 +22,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - Firefox
 - Spark IM (incl JDK anders werkt 't niet)
 - Telegram
-- Beyond Compare 3 (Kadaster has no licence for 4)
+- Beyond Compare 4
 - SoapUI + HermesJMS (OpenSource versions)
 - TortoiseSVN (_deprecated_ ;-)
 - Gimp
