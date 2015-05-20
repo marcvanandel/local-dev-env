@@ -26,6 +26,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - SoapUI + HermesJMS (OpenSource versions)
 - TortoiseSVN (_deprecated_ ;-)
 - Gimp
+- Altova XMLSpy (64bits)
 
 Installed other software in `D:\apps`
 
@@ -35,14 +36,15 @@ Installed other software in `D:\apps`
 - PuTTY
 - SQL Developer
 - Tomcat 7 (JBoss EWS / JAP4 version: [http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/](http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/libs/))
+- HermesJMS (volgens [Oracle AQ wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Oracle_AQ#HermesJMS))
 
 ## Settings
 
 **Environment Settings**
 
-	GIT_SSH=plink
-	JAVA_HOME_7=D:\apps\Java\jdk1.7.0_79
-	JAVA_HOME=%JAVA_HOME_7%
+    GIT_SSH=plink
+    JAVA_HOME_7=D:\apps\Java\jdk1.7.0_79
+    JAVA_HOME=%JAVA_HOME_7%
     JAVA_OPTS=-Xms512m -Xmx1024m -XX:MaxPermSize=512m
     M2_HOME=D:\apps\apache-maven-3.3.1
     PATH=%JAVA_HOME%\bin;%PATH%;%PUTTY_HOME%;%M2_HOME%\bin
@@ -51,7 +53,8 @@ Installed other software in `D:\apps`
 **System**
 
 To turn it on or off:
-1.  right-click on desktop -> "Screen resolution"
-2.  click on "Geavanceerde instellingen"
-3.  click on the "Weergave op scherm" tab
-4.  NUM lock AAN "De indicator enkele seconden afbeelden"
+
+> 1.  right-click on desktop -> "Screen resolution"
+> 2.  click on "Geavanceerde instellingen"
+> 3.  click on the "Weergave op scherm" tab
+> 4.  NUM lock AAN "De indicator enkele seconden afbeelden"
