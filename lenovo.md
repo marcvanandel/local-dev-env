@@ -28,6 +28,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - Gimp
 - Altova XMLSpy (64bits)
 - HermesJMS (volgens [Oracle AQ wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Oracle_AQ#HermesJMS); including typo fix in `bin/hermes.bat:44`: `if no exist` > `if not exist`)
+- VirtualBox + Extensions
 
 Installed other software in `D:\apps`
 
