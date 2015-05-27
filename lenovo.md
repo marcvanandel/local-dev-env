@@ -33,6 +33,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 
 Installed other software in `D:\apps`
 
+- JDK 1.8
 - JDK 1.7
 - JDK 1.5 (voor HPUX :( )
 - Maven
