@@ -16,5 +16,6 @@ export GROOVY_SCRIPT_HOME='/h/apps/scripts/'
 alias g='groovy /h/apps/scripts/g.groovy'
 alias deploy='g d *.war jap4'
 
-alias tcup='/d/Apps/apache-tomcat-7.0.57/bin/startup.sh -Dlog4j.configuration=file:${CATALINA_HOME}/conf/log4j.xml'
-alias tcdown='/d/Apps/apache-tomcat-7.0.57/bin/shutdown.sh'
+alias tcup='/d/apps/jboss-ews-2.0/tomcat7/bin/startup.sh'
+alias tcdown='/d/apps/jboss-ews-2.0/tomcat7/bin/shutdown.sh'
+alias tcclean='rm /d/apps/jboss-ews-2.0/tomcat7/logs/*'

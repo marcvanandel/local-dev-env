@@ -27,6 +27,7 @@ Installed other software in `D:\apps`
 - JDK 1.7
 - JDK 1.5 (voor HPUX :( )
 - Maven
+- ProcessExplorer
 - PuTTY
 - SQL Developer
 - Tomcat 7 (JBoss EWS / JAP4 version: [http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/](http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/libs/))
