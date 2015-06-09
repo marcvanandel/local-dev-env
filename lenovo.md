@@ -31,6 +31,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - VirtualBox + Extensions
 - Boot2Docker for Windows :D
 - mRemote
+- JXplorer (Open Source LDAP Browser)
 
 Installed other software in `D:\apps`
 
