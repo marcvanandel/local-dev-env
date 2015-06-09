@@ -6,6 +6,10 @@ De zware, virtuele Java SO PC's gaan met de migratie van ons DataCenter naar Cap
 
 Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`).
 
+**system**
+- Lenovo ThinkPad [Hotkey Features Integration Windows 7](http://support.lenovo.com/nl/nl/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t540p/downloads/DS101334)
+
+**apps**
 - Google Chrome
 - Sublime Text 3
 - Git client
@@ -18,12 +22,19 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - Firefox
 - Spark IM (incl JDK anders werkt 't niet)
 - Telegram
-- Beyond Compare 3 (Kadaster has no licence for 4)
+- Beyond Compare 4
 - SoapUI + HermesJMS (OpenSource versions)
 - TortoiseSVN (_deprecated_ ;-)
+- Gimp
+- Altova XMLSpy (64bits)
+- HermesJMS (volgens [Oracle AQ wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Oracle_AQ#HermesJMS); including typo fix in `bin/hermes.bat:44`: `if no exist` > `if not exist`)
+- VirtualBox + Extensions
+- Boot2Docker for Windows :D
+- mRemote
 
 Installed other software in `D:\apps`
 
+- JDK 1.8
 - JDK 1.7
 - JDK 1.5 (voor HPUX :( )
 - Maven
@@ -36,10 +47,19 @@ Installed other software in `D:\apps`
 
 **Environment Settings**
 
-	GIT_SSH=plink
-	JAVA_HOME_7=D:\apps\Java\jdk1.7.0_79
-	JAVA_HOME=%JAVA_HOME_7%
+    GIT_SSH=plink
+    JAVA_HOME_7=D:\apps\Java\jdk1.7.0_79
+    JAVA_HOME=%JAVA_HOME_7%
     JAVA_OPTS=-Xms512m -Xmx1024m -XX:MaxPermSize=512m
     M2_HOME=D:\apps\apache-maven-3.3.1
     PATH=%JAVA_HOME%\bin;%PATH%;%PUTTY_HOME%;%M2_HOME%\bin
     PUTTY_HOME=D:\apps\PuTTY
+
+**System**
+
+To turn it on or off:
+
+> 1.  right-click on desktop -> "Screen resolution"
+> 2.  click on "Geavanceerde instellingen"
+> 3.  click on the "Weergave op scherm" tab
+> 4.  NUM lock AAN "De indicator enkele seconden afbeelden"
