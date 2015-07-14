@@ -22,4 +22,8 @@
 
 10.103.11.34        cloud-db
 10.60.119.130       aa-intern.fto.kadaster.nl
+10.60.119.130		aa-proxy.fto.kadaster.nl
 10.60.119.192       aa-eto-intern.fto.kadaster.nl
+10.60.60.35			cloud-db.fto.kadaster.nl
+10.60.56.103		soap-pid2.fto.kadaster.nl
+10.60.56.103		ftu103.ft1.kadaster.nl
