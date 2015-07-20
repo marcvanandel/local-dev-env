@@ -20,6 +20,8 @@
 #	127.0.0.1       localhost
 #	::1             localhost
 
+127.0.0.1       	localhost
+127.0.0.1       	andelm.kadaster.local
 10.103.11.34        cloud-db
 10.60.119.130       aa-intern.fto.kadaster.nl
 10.60.119.130		aa-proxy.fto.kadaster.nl
