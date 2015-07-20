@@ -43,6 +43,7 @@ Installed other software in `D:\apps`
 - PuTTY
 - SQL Developer
 - Tomcat 7 (JBoss EWS / JAP4 version: [http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/](http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/libs/))
+- Apache WebServer (httpd) v2.2.25 (no_ssl msi)
 
 ## Settings
 
