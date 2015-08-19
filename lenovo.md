@@ -44,6 +44,10 @@ Installed other software in `D:\apps`
 - SQL Developer
 - Tomcat 7 (JBoss EWS / JAP4 version: [http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/](http://linuxrepository.so.kadaster.nl/repositories/public/trunk/Tomcat/libs/))
 - Apache WebServer (httpd) v2.2.25 (no_ssl msi)
+- mingw-get + msys-make:
+
+    bin/mingw-get install msys-make
+    cp msys/1.0/bin/* <GIT_HOME>/bin                --> no replace just addition of extra libs
 
 ## Settings
 
