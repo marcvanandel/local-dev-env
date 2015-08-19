@@ -46,6 +46,8 @@ Installed other software in `D:\apps`
 - Apache WebServer (httpd) v2.2.25 (no_ssl msi)
 - mingw-get + msys-make:
 
+commands:
+
     bin/mingw-get install msys-make
     cp msys/1.0/bin/* <GIT_HOME>/bin                --> no replace just addition of extra libs
 
