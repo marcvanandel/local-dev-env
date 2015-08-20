@@ -71,3 +71,13 @@ To turn it on or off:
 > 2.  click on "Geavanceerde instellingen"
 > 3.  click on the "Weergave op scherm" tab
 > 4.  NUM lock AAN "De indicator enkele seconden afbeelden"
+
+## Docker
+
+The Kadaster internal network Docker host, called yoda hosts (Your Own Docker Application), can be connected to via SSH. To develop Dockerfiles and containers it would be very convenient to test them locally (on my laptop). Docker only runs on Linux and for Windows (and OSX) there are Docker Tools available. These tools are based on porting local commands to a running VM on your machine (inside VirtualBox by default). Without VPN this works great! ... but the Dockerfiles will have the proxy because they will have to work on Kadaster internal network. With the VPN enabled the local VMs are unreachable ([SO-1329](http://jira.so.kadaster.nl/browse/SO-1329)) so these tools are not an option.
+
+Second solution is running a VM with Docker and develop the Dockerfiles and containers inside it. It would be very convenient if this is a provided VM (image) from PLP so it would be similar (if not equal) to the real machines. Alternative is to set up a Ubuntu Desktop yourself.
+
+### Ubuntu Desktop
+
+Network is NAT. Open Netwerk settings in Ubuntu and set Network Proxy > Apply system wide. After this `sudo apt-get update` works :) Now Docker can be installed following these instructions: [https://docs.docker.com/installation/ubuntulinux/](https://docs.docker.com/installation/ubuntulinux/)
