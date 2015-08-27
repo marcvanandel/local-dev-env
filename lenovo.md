@@ -32,6 +32,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - Boot2Docker for Windows :D
 - mRemote
 - JXplorer (Open Source LDAP Browser)
+- Slack Windows App
 
 Installed other software in `D:\apps`
 
