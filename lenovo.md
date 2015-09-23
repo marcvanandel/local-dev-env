@@ -11,28 +11,26 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 
 **apps**
 - Google Chrome
-- Sublime Text 3
+- Sublime Text 3 + [package control](https://packagecontrol.io/installation)
 - Git client
 - IntelliJ (Community Edition)
 - Dropbox
 - KeePass
 - 7zip
+- [Slack for Windows](https://slack.com/ssb/download-win)
 - [Chocolatey](https://chocolatey.org/)
 - Console2 (via Chocolatey: `choco install console2`)
 - Firefox
-- Spark IM (incl JDK anders werkt 't niet)
-- Telegram
 - Beyond Compare 4
-- SoapUI + HermesJMS (OpenSource versions)
-- TortoiseSVN (_deprecated_ ;-)
 - Gimp
-- Altova XMLSpy (64bits)
-- HermesJMS (volgens [Oracle AQ wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Oracle_AQ#HermesJMS); including typo fix in `bin/hermes.bat:44`: `if no exist` > `if not exist`)
 - VirtualBox + Extensions
 - Boot2Docker for Windows :D
 - mRemote
 - JXplorer (Open Source LDAP Browser)
-- Slack Windows App
+- SoapUI + HermesJMS (OpenSource versions)
+- Altova XMLSpy (64bits)
+- HermesJMS (volgens [Oracle AQ wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Oracle_AQ#HermesJMS); including typo fix in `bin/hermes.bat:44`: `if no exist` > `if not exist`)
+- TortoiseSVN (_deprecated_ ;-)
 
 Installed other software in `D:\apps`
 
