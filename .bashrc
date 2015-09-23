@@ -1,5 +1,5 @@
 export GIT_SSH=plink
-alias ll='ls -altr'
+alias ll='ls -al'
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
