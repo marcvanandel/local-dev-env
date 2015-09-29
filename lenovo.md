@@ -25,6 +25,7 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - Gimp
 - VirtualBox + Extensions
 - Boot2Docker for Windows :D
+- Vagrant (from [vagrant up](https://www.vagrantup.com/))
 - mRemote
 - JXplorer (Open Source LDAP Browser)
 - SoapUI + HermesJMS (OpenSource versions)
