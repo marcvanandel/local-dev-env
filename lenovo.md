@@ -81,3 +81,52 @@ Second solution is running a VM with Docker and develop the Dockerfiles and cont
 ### Ubuntu Desktop
 
 Network is NAT. Open Netwerk settings in Ubuntu and set Network Proxy > Apply system wide. After this `sudo apt-get update` works :) Now Docker can be installed following these instructions: [https://docs.docker.com/installation/ubuntulinux/](https://docs.docker.com/installation/ubuntulinux/)
+
+# Re-install from fresh image
+
+Op 11 nov 2015 heb ik een nieuw image op m'n laptop laten zetten ...
+
+### Worklog 11 nov 2015
+- Windows Update afgemaakt
+- Dropbox geïnstalleerd
+- Theme ingesteld
+- Resolutie verlaagd + 'normaal view' (= 100%)
+- Google Chrome geïnstalleerd
+- Gedeïnstalleerd: RES Workspace Manager 2014 SR2 Agent
+- Virusscanner geïnstalleerd (downloaded via https://mail.kadaster.nl)
+- KeePass 2 handmatig verwijderd (alle reg-keys handmatig verwijderd + handmatige delete van folder in Program Files (x86) )
+- KeePass 2 laatste versie geïnstalleerd
+
+! nu werkt de achtergrond niet meer !
+
+- Gedeïnstalleerd: RES Automation Manager 2014 SR4 Agent
+  (ging eerste keer niet goed; 3e poging na opnieuw opstarten werkt)
+
+! hersteld naar voor verwijdering van RES !
+
+- Gedeïnstalleerd: RES Workspace Manager 2014 SR2 Agent
+- Dropbox geïnstalleerd
+- Resolutie verlaagd + 'normaal view' (= 100%)
+- Google Chrome geïnstalleerd
+- KeePass 2 laatste versie geïnstalleerd
+- Virusscanner geïnstalleerd (downloaded via https://mail.kadaster.nl)
+
+- 7zip
+- ConEmu
+- Git for Windows
+- PuTTy
+- Sublime Text 3 + package control
+- JDK 7
+- JDK 8
+- Maven
+- IntelliJ
+> setting up .ssh and .m2
+- Slack for Windows (incl .Net 4)
+
+### Worklog 18 nov 2015
+- Beyond Compare 4
+- node.js (5.1)
+
+### Worklog 26 nov 2015
+- mRemote
+
