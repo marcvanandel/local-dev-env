@@ -130,3 +130,11 @@ Op 11 nov 2015 heb ik een nieuw image op m'n laptop laten zetten ...
 ### Worklog 26 nov 2015
 - mRemote
 
+### Worklog 16 mrt 2016 - Fresh install
+
+Na opnieuw een 'fresh image' opnieuw de boel installeren. Daarbij heb ik geprobeerd om de 'Mijn Afbeeldingen' te verplaatsen naar mijn Amazon cloud folder:
+
+- Open Regedit(.exe)
+- Wijzig
+-- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\My Pictures` van `D:\andelm\Mijn Documenten\My Pictures` naar `D:\Cloud Drive Downloads\Fotoboek`
+-- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\My Pictures` van `D:\andelm\Mijn Documenten\My Pictures` naar `D:\Cloud Drive Downloads\Fotoboek`
