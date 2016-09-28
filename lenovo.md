@@ -1,8 +1,52 @@
 # Lenovo Thinkpad
 
+## Laatste installatie
+
+Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`).
+
+**apps**
+- Google Chrome
+- Sublime Text 3 + [package control](https://packagecontrol.io/installation)
+- Git client (+ [global config](http://wiki.cs.kadaster.nl/wiki/index.php/Git-scm#Git_client))
+- IntelliJ (Community Edition)
+- Dropbox
+- KeePass
+- 7zip
+- [Slack for Windows](https://slack.com/ssb/download-win)
+- ConEmu
+- Beyond Compare 4
+- Gimp
+- VirtualBox + Extensions
+- mRemote
+- Altova XMLSpy (64bits)
+
+Installed other software in `D:\apps`
+
+- JDK 1.8
+- JDK 1.7
+- Maven
+- ProcessExplorer
+- PuTTY
+- [Local Docker Development Environment](http://github.so.kadaster.nl/javaexp/local-docker-dev-env) (incl VirtualBox, Vagrant)
+
+**Environment Settings**
+
+    GIT_SSH=plink
+    JAVA_HOME7=D:\apps\Java\jdk1.7.0_79
+    JAVA_HOME8=D:\apps\Java\jdk1.8.0_101
+    JAVA_HOME=%JAVA_HOME8%
+    JAVA_OPTS=-Xms512m -Xmx1024m -XX:MaxPermSize=512m
+    M2_HOME=D:\apps\apache-maven-3.3.1
+    PATH=%JAVA_HOME%\bin;%PATH%;%PUTTY_HOME%;%M2_HOME%\bin
+    PUTTY_HOME=D:\apps\PuTTY
+
+
+
+## Eerdere installaties
+
 De zware, virtuele Java SO PC's gaan met de migratie van ons DataCenter naar Capgemini over naar laptops: [SO-1164](http://jira.so.kadaster.nl/browse/SO-1164) en [JAVA-176](http://jira.so.kadaster.nl/browse/JAVA-176).
 
-## Installed software
+### Installed software
 
 Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`).
 
@@ -51,7 +95,7 @@ commands:
     bin/mingw-get install msys-make
     cp msys/1.0/bin/* <GIT_HOME>/bin                --> no replace just addition of extra libs
 
-## Settings
+### Settings
 
 **Environment Settings**
 
@@ -72,13 +116,13 @@ To turn it on or off:
 > 3.  click on the "Weergave op scherm" tab
 > 4.  NUM lock AAN "De indicator enkele seconden afbeelden"
 
-## Docker
+### Docker
 
 The Kadaster internal network Docker host, called yoda hosts (Your Own Docker Application), can be connected to via SSH. To develop Dockerfiles and containers it would be very convenient to test them locally (on my laptop). Docker only runs on Linux and for Windows (and OSX) there are Docker Tools available. These tools are based on porting local commands to a running VM on your machine (inside VirtualBox by default). Without VPN this works great! ... but the Dockerfiles will have the proxy because they will have to work on Kadaster internal network. With the VPN enabled the local VMs are unreachable ([SO-1329](http://jira.so.kadaster.nl/browse/SO-1329)) so these tools are not an option.
 
 Second solution is running a VM with Docker and develop the Dockerfiles and containers inside it. It would be very convenient if this is a provided VM (image) from PLP so it would be similar (if not equal) to the real machines. Alternative is to set up a Ubuntu Desktop yourself.
 
-### Ubuntu Desktop
+#### Ubuntu Desktop
 
 Network is NAT. Open Netwerk settings in Ubuntu and set Network Proxy > Apply system wide. After this `sudo apt-get update` works :) Now Docker can be installed following these instructions: [https://docs.docker.com/installation/ubuntulinux/](https://docs.docker.com/installation/ubuntulinux/)
 
@@ -86,7 +130,7 @@ Network is NAT. Open Netwerk settings in Ubuntu and set Network Proxy > Apply sy
 
 Op 11 nov 2015 heb ik een nieuw image op m'n laptop laten zetten ...
 
-### Worklog 11 nov 2015
+#### Worklog 11 nov 2015
 - Windows Update afgemaakt
 - Dropbox geïnstalleerd
 - Theme ingesteld
@@ -123,14 +167,14 @@ Op 11 nov 2015 heb ik een nieuw image op m'n laptop laten zetten ...
 > setting up .ssh and .m2
 - Slack for Windows (incl .Net 4)
 
-### Worklog 18 nov 2015
+#### Worklog 18 nov 2015
 - Beyond Compare 4
 - node.js (5.1)
 
-### Worklog 26 nov 2015
+#### Worklog 26 nov 2015
 - mRemote
 
-### Worklog 16 mrt 2016 - Fresh install
+#### Worklog 16 mrt 2016 - Fresh install
 
 Na opnieuw een 'fresh image' opnieuw de boel installeren. Daarbij heb ik geprobeerd om de 'Mijn Afbeeldingen' te verplaatsen naar mijn Amazon cloud folder:
 
