@@ -2,13 +2,13 @@
 
 ## Laatste installatie
 
-Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`).
+Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default `C:\Progam Files` (and `C:\Program Files (x86)`)).
 
 **apps**
 - Google Chrome
 - Sublime Text 3 + [package control](https://packagecontrol.io/installation)
 - Git client (+ [global config](http://wiki.cs.kadaster.nl/wiki/index.php/Git-scm#Git_client))
-- IntelliJ (Community Edition)
+- IntelliJ (Ultimate Edition)
 - Dropbox
 - KeePass
 - 7zip
@@ -19,12 +19,16 @@ Installed Windows installers in `C:\Progam Files` (and `C:\Program Files (x86)`)
 - VirtualBox + Extensions
 - mRemote
 - Altova XMLSpy (64bits)
+- Cisco VPN AnyConnect (Kadaster provided)
+- Slack
+- [Archimate](https://www.archimatetool.com/)
 
 Installed other software in `D:\apps`
 
 - JDK 1.8
-- JDK 1.7
+- -JDK 1.7-
 - Maven
+- NodeJS
 - ProcessExplorer
 - PuTTY
 - [Local Docker Development Environment](http://github.so.kadaster.nl/javaexp/local-docker-dev-env) (incl VirtualBox, Vagrant)
@@ -32,14 +36,10 @@ Installed other software in `D:\apps`
 **Environment Settings**
 
     GIT_SSH=plink
-    JAVA_HOME7=D:\apps\Java\jdk1.7.0_79
-    JAVA_HOME8=D:\apps\Java\jdk1.8.0_101
-    JAVA_HOME=%JAVA_HOME8%
+    JAVA_HOME=D:\apps\Java\jdk1.8.0_101
     JAVA_OPTS=-Xms512m -Xmx1024m -XX:MaxPermSize=512m
     M2_HOME=D:\apps\apache-maven-3.3.1
-    PATH=%JAVA_HOME%\bin;%PATH%;%PUTTY_HOME%;%M2_HOME%\bin
-    PUTTY_HOME=D:\apps\PuTTY
-
+    PATH=%JAVA_HOME%\bin;%PATH%;%M2_HOME%\bin
 
 
 ## Eerdere installaties
