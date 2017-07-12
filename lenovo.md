@@ -8,30 +8,30 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
 
 **apps**
 - _Minimal set up_
-  - Google Chrome
-  - Dropbox
-  - KeePass
-  - 7zip
+  - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+  - [Dropbox](https://www.dropbox.com)
+  - [KeePass](http://keepass.info/download.html)
+  - [7zip](http://www.7-zip.org/download.html)
   - Cisco VPN AnyConnect (Kadaster provided)
 - _Tools_
-  - PuTTY
-  - ConEmu
-  - mRemote
-  - Git client (+ [global config](http://wiki.cs.kadaster.nl/wiki/index.php/Git-scm#Git_client))
-  - JDK 1.8
+  - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+  - [ConEmu](https://conemu.github.io/)
+  - [mRemote](https://mremoteng.org/download)
+  - [Git client](https://git-scm.com/downloads) (+ [global config](http://wiki.cs.kadaster.nl/wiki/index.php/Git-scm#Git_client))
+  - [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
   - <s>JDK 1.7</s>
-  - Maven
-  - NodeJS
-  - ProcessExplorer
+  - [Maven](https://maven.apache.org/download.cgi)
+  - [NodeJS](https://nodejs.org/en/download/)
+  - [ProcessExplorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
   - [Local Docker Development Environment](http://github.so.kadaster.nl/javaexp/local-docker-dev-env) (incl VirtualBox)
 - _Software_
   - Sublime Text 3 + [package control](https://packagecontrol.io/installation)
-  - IntelliJ (Ultimate Edition)
+  - [IntelliJ](https://www.jetbrains.com/idea/download/) (Ultimate Edition)
   - [Slack for Windows](https://slack.com/ssb/download-win)
-  - Beyond Compare 4
-  - GIMP for Windows
-  - Altova XMLSpy (64bits)
-  - Slack
+  - [Beyond Compare 4](https://www.scootersoftware.com/download.php) (+ [license](http://wiki.cs.kadaster.nl/wiki/index.php/Beyond_compare))
+  - [GIMP for Windows](https://www.gimp.org/downloads/)
+  - [Altova XMLSpy Professional Edition](https://www.altova.com/download_current.html) (64bits) (+ [license](http://wiki.cs.kadaster.nl/wiki/index.php/Xmlspy))
+  - [Slack](https://slack.com/downloads/windows)
   - [Archimate](https://www.archimatetool.com/)
 
 **Environment Settings**
