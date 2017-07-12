@@ -19,7 +19,7 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
   - mRemote
   - Git client (+ [global config](http://wiki.cs.kadaster.nl/wiki/index.php/Git-scm#Git_client))
   - JDK 1.8
-  - -JDK 1.7-
+  - <s>JDK 1.7</s>
   - Maven
   - NodeJS
   - ProcessExplorer
