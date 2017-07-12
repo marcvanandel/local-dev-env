@@ -27,7 +27,7 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
 - _Software_
   - [Sublime Text](https://www.sublimetext.com/)
   - [IntelliJ](https://www.jetbrains.com/idea/download/) (Ultimate Edition)
-  - [Slack for Windows](https://slack.com/ssb/download-win)
+  - [Slack for Windows](https://slack.com/ssb/download-win) (incl. .Net Framework 4.6 ?)
   - [Beyond Compare 4](https://www.scootersoftware.com/download.php) (+ [license](http://wiki.cs.kadaster.nl/wiki/index.php/Beyond_compare))
   - [GIMP for Windows](https://www.gimp.org/downloads/)
   - [Altova XMLSpy Professional Edition](https://www.altova.com/download_current.html) (64bits) (+ [license](http://wiki.cs.kadaster.nl/wiki/index.php/Xmlspy))
