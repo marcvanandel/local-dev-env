@@ -25,7 +25,7 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
   - [ProcessExplorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
   - [Local Docker Development Environment](http://github.so.kadaster.nl/javaexp/local-docker-dev-env) (incl VirtualBox)
 - _Software_
-  - Sublime Text 3 + [package control](https://packagecontrol.io/installation)
+  - [Sublime Text](https://www.sublimetext.com/)
   - [IntelliJ](https://www.jetbrains.com/idea/download/) (Ultimate Edition)
   - [Slack for Windows](https://slack.com/ssb/download-win)
   - [Beyond Compare 4](https://www.scootersoftware.com/download.php) (+ [license](http://wiki.cs.kadaster.nl/wiki/index.php/Beyond_compare))
