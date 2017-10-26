@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+ 
+  <localRepository>D:\data\maven-repo</localRepository>
+ 
+  <interactiveMode>true</interactiveMode>
+ 
+  <offline>false</offline>
+ 
+  <pluginGroups>
+    <pluginGroup>nl.kadaster.maven.plugins</pluginGroup>
+  </pluginGroups>
+ 
+  <!-- All traffic goes through the InternalRepo Repository Manager -->
+  <!--
+  <proxies>
+    <proxy>
+    </proxy>
+  </proxies>
+  -->
+ 
+  <servers>
+    <server>
+      <id>snapshots-repo</id>
+      <username><!-- plain username --></username>
+      <password><!-- encrypted password generator by Artifactory --></password>
+    </server>
+  </servers>
+ 
+  <mirrors>
+     <mirror>
+         <id>InternalRepo</id>
+         <mirrorOf>*</mirrorOf>
+         <url>http://ota-portal.so.kadaster.nl/artifactory/mvn-registry</url>
+     </mirror>
+  </mirrors>
+ 
+  <profiles>
+    <profile>
+        <id>InternalRepo</id>
+        <properties>
+            <archetypeCatalog>http://ota-portal.so.kadaster.nl/artifactory/mvn-registry/archetype-catalog.xml</archetypeCatalog>
+            <archetypeRepository>http://ota-portal.so.kadaster.nl/artifactory/mvn-registry</archetypeRepository>
+        </properties>
+        <repositories>
+           <repository>
+              <id>central</id>
+              <url>http://central</url>
+              <releases>
+                 <enabled>true</enabled>
+              </releases>
+              <snapshots>
+                 <enabled>true</enabled>
+              </snapshots>
+           </repository>
+        </repositories>
+        <pluginRepositories>
+           <pluginRepository>
+              <id>central</id>
+              <url>http://central</url>
+              <releases>
+                 <enabled>true</enabled>
+              </releases>
+              <snapshots>
+                 <enabled>true</enabled>
+              </snapshots>
+           </pluginRepository>
+        </pluginRepositories>
+    </profile>
+  </profiles>
+ 
+  <activeProfiles>
+     <activeProfile>InternalRepo</activeProfile>
+  </activeProfiles>
+ 
+</settings>

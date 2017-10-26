@@ -19,3 +19,6 @@ alias deploy='g d *.war jap4'
 alias tcup='/d/apps/jboss-ews-2.0/tomcat7/bin/startup.sh'
 alias tcdown='/d/apps/jboss-ews-2.0/tomcat7/bin/shutdown.sh'
 alias tcclean='rm /d/apps/jboss-ews-2.0/tomcat7/logs/*'
+
+eval "$(docker-machine env default --no-proxy --shell bash 2>/dev/null)"
+
