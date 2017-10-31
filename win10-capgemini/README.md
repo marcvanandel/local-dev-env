@@ -10,6 +10,8 @@ _2017-10-26 MvA_: Nieuwe image geïnstalleerd. Dat ging de eerste keer fout, wan
 
 _2017-10-30 MvA_: Mbv mijn [Lenovo pagina](http://github.so.kadaster.nl/andelm/local-dev-env/blob/master/lenovo.md) alle tools gedownload en geïnstalleerd. Wat gaat dat allemaal goed! Cisco AnyConnect is standaard al deel van het image en werkt direct. Super! Naar en van slaapstand werkt heel goed. Geen BSoD meer (op dit moment)! En snel!
 
+_2017-10-31 WvI_: De nieuwe, voorgeïnstalleerde laptop ligt klaar bij local support. Eén klein probleempje: er is vandaag niemand op de Brug aanwezig. Morgenochtend mag ik hem ophalen
+
 
 ## Bevindingen
 
@@ -20,5 +22,3 @@ _2017-10-26 MvA_: Bij het inloggen krijg ik nog een rare melding over 'OLD passw
 <img src="screenshot-logon-old-password.jpg" />
 
 _2017-10-31 MvA_: Banners voor Sophos Safe Guard uitgezet, want die komen vaak voorbij, zowel dat het wel gelukt is, als dat het niet gelukt is...
-
-_2017-10-31 WvI_: De nieuwe, voorgeïnstalleerde laptop ligt klaar bij local support. Eén klein probleempje: er is vandaag niemand op de Brug aanwezig. Morgenochtend mag ik hem ophalen
