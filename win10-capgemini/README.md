@@ -22,3 +22,5 @@ _2017-10-26 MvA_: Bij het inloggen krijg ik nog een rare melding over 'OLD passw
 <img src="screenshot-logon-old-password.jpg" />
 
 _2017-10-31 MvA_: Banners voor Sophos Safe Guard uitgezet, want die komen vaak voorbij, zowel dat het wel gelukt is, als dat het niet gelukt is...
+
+_2017-10-31 MvA_: `https://intranet.kadaster.nl` toegevoegd aan trusted sites voor intranet security zone (zie [wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Wiki/Tips%26Tricks#Google_Chrome))
