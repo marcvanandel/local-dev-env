@@ -24,7 +24,7 @@ _2017-11-01 MvA_: Docker werkt super!! KOERS draaide in één keer zonder proble
 
 _(bevindingenlijst, eventueel aangevuld met screenshots)_
 
-_2017-10-26 MvA_: Bij het inloggen krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.
+_2017-10-26 MvA_: Bij het inloggen én bij ontgrendelen (!) krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.
 
 <img src="screenshot-logon-old-password.jpg" />
 
