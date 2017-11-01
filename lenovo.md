@@ -33,6 +33,7 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
   - [Altova XMLSpy Professional Edition](https://www.altova.com/download_current.html) (64bits) (+ [license](http://wiki.cs.kadaster.nl/wiki/index.php/Xmlspy))
   - [Slack](https://slack.com/downloads/windows)
   - [Archimate](https://www.archimatetool.com/)
+  - [Adobe Reader](https://get.adobe.com/nl/reader/) _(win10: alternative installatie via [direct download](https://get.adobe.com/nl/reader/direct/) ([doc](https://helpx.adobe.com/nl/acrobat/kb/fix-install-download-reader.html)))
 - _[Chocolaty](https://chocolatey.org/install)_ (run in admin shell)
   - [Jekyll + Ruby (on Windows)](https://jekyllrb.com/docs/windows/#installation) _(hmm... dat werkt niet gelijk en gemakkelijk; over naar Docker image [jekyll/jekyll](https://hub.docker.com/r/jekyll/jekyll/)?)_
   - [Yarn](https://yarnpkg.com/en/) (alternative for NPM ;) ` choco install yarn`
