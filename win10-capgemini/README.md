@@ -19,6 +19,7 @@ _2017-11-01 MvA_: [Install Bash on Windows 10](https://www.howtogeek.com/249966/
 
 _2017-11-01 MvA_: Docker werkt super!! KOERS draaide in één keer zonder problemen, ook in Docker Swarmmode :D
 
+_2017-11-02 WvI_: Bij local support langs geweest, de aanvraag voor de tweede laptop was geweigerd. Inmiddels is de toestemming wel (weer) gegeven, dus zullen ze de laptop vandaag in gaan richten
 
 ## Bevindingen
 
