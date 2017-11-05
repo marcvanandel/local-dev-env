@@ -35,3 +35,7 @@ _2017-10-31 MvA_: `https://intranet.kadaster.nl` toegevoegd aan trusted sites vo
 _2017-11-01 MvA_: _Windows 10 Developer Mode_ geeft een error 'Geavanceerde ontwikkelfuncties niet gevonden in Windows Update'
 
 <img src="screenshot-win10-dev-mode-error.png" />
+
+_2017-11-05 MvA_: Mail in MS Outlook is niet meer te openen en geeft een vreemde error:
+
+<img src="screenshot-outlook-error.png" />
