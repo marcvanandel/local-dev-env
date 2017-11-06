@@ -19,6 +19,8 @@ _2017-11-01 MvA_: [Install Bash on Windows 10](https://www.howtogeek.com/249966/
 
 _2017-11-01 MvA_: Docker werkt super!! KOERS draaide in één keer zonder problemen, ook in Docker Swarmmode :D
 
+_2017-11-03 MvA_: Ik moest mijn periodieke wachtwoord wijzigen en dat heb ik gedaan na het inloggen op de VPN. Vervolgens kreeg ik de melding in Windows om te vergrendelen en met mijn nieuwe wachtwoord te ontgrendelen ... GREAT! Dat werkt gewoon in één keer!! Top!
+
 
 ## Bevindingen
 
