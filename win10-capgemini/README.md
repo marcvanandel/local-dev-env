@@ -40,6 +40,6 @@ _2017-11-01 MvA_: _Windows 10 Developer Mode_ geeft een error 'Geavanceerde ontw
 
 <img src="screenshot-win10-dev-mode-error.png" />
 
-_2017-11-05 MvA_: Mail in MS Outlook is niet meer te openen en geeft een vreemde error:
+_2017-11-05 MvA_: <s>Mail in MS Outlook is niet meer te openen en geeft een vreemde error:</s> _SOLVED: by Windows Update!_
 
 <img src="screenshot-outlook-error.png" />
