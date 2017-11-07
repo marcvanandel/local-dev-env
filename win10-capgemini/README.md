@@ -25,7 +25,7 @@ _2017-11-03 MvA_: Ik moest mijn periodieke wachtwoord wijzigen en dat heb ik ged
 
 _2017-11-06 WvI_: Weer een bezoekje aan local support. Mijn laptop ligt klaar, alleen zeggen ze dat er geen goedkeuring van een manager is. Bij Johan Borger langsgegaan, hij heeft de bevestiging in zijn mailbox. Hij zou bij local support (of de KSD?) langswandelen. Eind van de middag nogmaals langs local support, daar hebben ze hem nog niet gezien. Volgens mij wordt dit een test of het me lukt om vóór het eind van de testperiode een laptop te bemachtigen
 
-_2017-11-07 WvI_: Er worden nu 2 verschillende omruil-scenario's onderkend: Enerzijds de mensen die gewoon een nieuw image willen laten inspoelen, anderzijds de mensen die tijdelijk 2 systemen naast elkaar willen draaien. De toestemmingen zijn inmiddels geregeld, alleen is local support afwezig.
+_2017-11-07 WvI_: Er worden nu 2 verschillende omruil-scenario's onderkend: Enerzijds de mensen die gewoon een nieuw image willen laten inspoelen, anderzijds de mensen die tijdelijk 2 systemen naast elkaar willen draaien. Ik heb een laptop op mijn buro liggen!
 
 ## Bevindingen
 
