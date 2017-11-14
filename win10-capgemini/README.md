@@ -27,6 +27,8 @@ _2017-11-06 WvI_: Weer een bezoekje aan local support. Mijn laptop ligt klaar, a
 
 _2017-11-07 WvI_: Er worden nu 2 verschillende omruil-scenario's onderkend: Enerzijds de mensen die gewoon een nieuw image willen laten inspoelen, anderzijds de mensen die tijdelijk 2 systemen naast elkaar willen draaien. Ik heb een laptop op mijn buro liggen!
 
+_2017-11-14 WvI_: Na een weekje gebruik eigenlijk weinig te melden. Ik krijg af en toe een popup + geluid van Sophos Safeguard updates. Die zou ik liever niet hebben, maar verder lopen zowel de installatie als het gebruik van diverse programma's op rolletjes
+
 ## Bevindingen
 
 _(bevindingenlijst, eventueel aangevuld met screenshots)_
