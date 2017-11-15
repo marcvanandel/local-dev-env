@@ -49,6 +49,3 @@ _2017-11-01 MvA_: _Windows 10 Developer Mode_ geeft een error 'Geavanceerde ontw
 
 _2017-11-05 MvA_: <s>Mail in MS Outlook is niet meer te openen en geeft een vreemde error:</s> _SOLVED: by Windows Update! (on 2017-11-06)_
 <img src="screenshot-outlook-error.png" />
-
-_2017-11-15 WvI_: Als ik vanuit Chrome probeer in te loggen in ServiceNow komt mijn browser in een oneindige loop van de request_authentication pagina. Vanuit Internet Explorer gaat inloggen wel goed. Screenshot: links wordt de pagina geladen, rechts de netwerk log
-<img src="screenshot-ServiceNow-Chrome.png" />
