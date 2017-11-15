@@ -29,6 +29,8 @@ _2017-11-07 WvI_: Er worden nu 2 verschillende omruil-scenario's onderkend: Ener
 
 _2017-11-14 WvI_: Na een weekje gebruik eigenlijk weinig te melden. Ik krijg af en toe een popup + geluid van Sophos Safeguard updates. Die zou ik liever niet hebben, maar verder lopen zowel de installatie als het gebruik van diverse programma's op rolletjes
 
+_2017-11-15 WvI_: Vanmorgen mocht ik mijn wachtwoord wijzigen. Nieuw wachtwoord twee keer ingevuld, bij de eerste keer unlocken van mijn scherm vroeg Sophos SafeGuard om mijn oude wachtwoord, daarna niet meer. Liep geheel volgens verwachting!
+
 ## Bevindingen
 
 _(bevindingenlijst, eventueel aangevuld met screenshots)_
