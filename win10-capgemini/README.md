@@ -27,6 +27,10 @@ _2017-11-06 WvI_: Weer een bezoekje aan local support. Mijn laptop ligt klaar, a
 
 _2017-11-07 WvI_: Er worden nu 2 verschillende omruil-scenario's onderkend: Enerzijds de mensen die gewoon een nieuw image willen laten inspoelen, anderzijds de mensen die tijdelijk 2 systemen naast elkaar willen draaien. Ik heb een laptop op mijn buro liggen!
 
+_2017-11-14 WvI_: Na een weekje gebruik eigenlijk weinig te melden. Ik krijg af en toe een popup + geluid van Sophos Safeguard updates. Die zou ik liever niet hebben, maar verder lopen zowel de installatie als het gebruik van diverse programma's op rolletjes
+
+_2017-11-15 WvI_: Vanmorgen mocht ik mijn wachtwoord wijzigen. Nieuw wachtwoord twee keer ingevuld, bij de eerste keer unlocken van mijn scherm vroeg Sophos SafeGuard om mijn oude wachtwoord, daarna niet meer. Liep geheel volgens verwachting (maar die verwachting moet misschien nog wel ergens gedocumenteerd worden)
+
 ## Bevindingen
 
 _(bevindingenlijst, eventueel aangevuld met screenshots)_
@@ -44,7 +48,6 @@ _2017-11-01 MvA_: _Windows 10 Developer Mode_ geeft een error 'Geavanceerde ontw
 <img src="screenshot-win10-dev-mode-error.png" />
 
 _2017-11-05 MvA_: <s>Mail in MS Outlook is niet meer te openen en geeft een vreemde error:</s> _SOLVED: by Windows Update! (on 2017-11-06)_
-
 <img src="screenshot-outlook-error.png" />
 
 _2017-11-20 MvA_: Bureaubladachtergrond blijft niet wat is ingesteld nadat opnieuw wordt opgestart (of af- en aanmelden). Dit is niet altijd zo. Het is onduidelijk wanneer en of dat wel of niet blijft staan. Dit had ik ook met het Windows 7 profiel.
