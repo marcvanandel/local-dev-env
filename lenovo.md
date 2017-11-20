@@ -27,6 +27,7 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
 - _Software_
   - [Sublime Text](https://www.sublimetext.com/)
   - [IntelliJ](https://www.jetbrains.com/idea/download/) (Ultimate Edition)
+  - [Visual Studio Code](https://code.visualstudio.com/)
   - [Slack for Windows](https://slack.com/ssb/download-win) (incl. .Net Framework 4.6 ?)
   - [Beyond Compare 4](https://www.scootersoftware.com/download.php) (+ [license](http://wiki.cs.kadaster.nl/wiki/index.php/Beyond_compare))
   - [GIMP for Windows](https://www.gimp.org/downloads/)
