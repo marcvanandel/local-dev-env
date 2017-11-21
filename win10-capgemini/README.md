@@ -53,3 +53,5 @@ _2017-11-05 MvA_: <s>Mail in MS Outlook is niet meer te openen en geeft een vree
 _2017-11-20 MvA_: Bureaubladachtergrond blijft niet wat is ingesteld nadat opnieuw wordt opgestart (of af- en aanmelden). Dit is niet altijd zo. Het is onduidelijk wanneer en of dat wel of niet blijft staan. Dit had ik ook met het Windows 7 profiel.
 
 _2017-11-20 MvA_: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
+
+_2017-11-21 MvA_: Virusscanner start standaard om 17.00u, precies het moment dat ik standaard naar huis ga en mijn laptop in slaapstand zet. Is dat handig? Is een ander tijdstip, bijv. 12.15u niet een beter moment? _(niet echt probleem, maar toch ... ;)
