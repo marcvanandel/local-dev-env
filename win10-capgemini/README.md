@@ -55,3 +55,7 @@ _2017-11-20 MvA_: Bureaubladachtergrond blijft niet wat is ingesteld nadat opnie
 _2017-11-20 MvA_: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
 
 _2017-11-21 MvA_: Virusscanner start standaard om 17.00u, precies het moment dat ik standaard naar huis ga en mijn laptop in slaapstand zet. Is dat handig? Is een ander tijdstip, bijv. 12.15u niet een beter moment? _(niet echt probleem, maar toch ... ;)_
+
+_2017-11-29 MvA_: Bij het verbinden of verbreken van de VPN krijg ik regelmatig (maar niet altijd) de melding: `RES ONE Workspace - You are not allowed to use this application.`
+
+<img src="screenshot-res-not-allowed.png">
