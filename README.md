@@ -4,5 +4,5 @@ Wat gebruik ik allemaal lokaal op mijn ontwikkelomgeving? Welke spullen heb ik g
 
 Hier is dat te vinden! (en kan ik het versiebeheren :) )
 
-- [Lenovo](lenovo.md) (laptop inrichting)
-- [Windown 10 Capgemini profile](win10-capgemini)
+- [Lenovo](http://github.so.kadaster.nl/pages/andelm/local-dev-env/lenovo) (laptop inrichting)
+- [Windown 10 Capgemini profile](http://github.so.kadaster.nl/pages/andelm/local-dev-env/win10-capgemini/)
