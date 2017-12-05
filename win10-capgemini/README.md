@@ -35,27 +35,27 @@ _2017-11-15 WvI_: Vanmorgen mocht ik mijn wachtwoord wijzigen. Nieuw wachtwoord 
 
 _(bevindingenlijst, eventueel aangevuld met screenshots)_
 
-_2017-10-26 MvA_: Bij het inloggen én bij ontgrendelen (!) krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.
+_2017-10-26 MvA_ [must have]: Bij het inloggen én bij ontgrendelen (!) krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.
 
 <img src="screenshot-logon-old-password.jpg" />
 
-_2017-10-31 MvA_: Banners voor Sophos Safe Guard uitgezet, want die komen vaak voorbij, zowel dat het wel gelukt is, als dat het niet gelukt is...
+_2017-10-31 MvA_ [nice to have]: Banners voor Sophos Safe Guard uitgezet, want die komen vaak voorbij, zowel dat het wel gelukt is, als dat het niet gelukt is...
 
-_2017-10-31 MvA_: `https://intranet.kadaster.nl` toegevoegd aan trusted sites voor intranet security zone (zie [wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Wiki/Tips%26Tricks#Google_Chrome))
+_2017-10-31 MvA_ [should have]: `https://intranet.kadaster.nl` toegevoegd aan trusted sites voor intranet security zone (zie [wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Wiki/Tips%26Tricks#Google_Chrome))
 
-_2017-11-01 MvA_: _Windows 10 Developer Mode_ geeft een error 'Geavanceerde ontwikkelfuncties niet gevonden in Windows Update'
+_2017-11-01 MvA_ [nice to have]: _Windows 10 Developer Mode_ geeft een error 'Geavanceerde ontwikkelfuncties niet gevonden in Windows Update'
 
 <img src="screenshot-win10-dev-mode-error.png" />
 
-_2017-11-05 MvA_: <s>Mail in MS Outlook is niet meer te openen en geeft een vreemde error:</s> _SOLVED: by Windows Update! (on 2017-11-06)_
+_2017-11-05 MvA_ [solved]: <s>Mail in MS Outlook is niet meer te openen en geeft een vreemde error:</s> _SOLVED: by Windows Update! (on 2017-11-06)_
 <img src="screenshot-outlook-error.png" />
 
-_2017-11-20 MvA_: Bureaubladachtergrond blijft niet wat is ingesteld nadat opnieuw wordt opgestart (of af- en aanmelden). Dit is niet altijd zo. Het is onduidelijk wanneer en of dat wel of niet blijft staan. Dit had ik ook met het Windows 7 profiel.
+_2017-11-20 MvA_ [should have]: Bureaubladachtergrond blijft niet wat is ingesteld nadat opnieuw wordt opgestart (of af- en aanmelden). Dit is niet altijd zo. Het is onduidelijk wanneer en of dat wel of niet blijft staan. Dit had ik ook met het Windows 7 profiel.
 
-_2017-11-20 MvA_: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
+_2017-11-20 MvA_ [must have]: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
 
-_2017-11-21 MvA_: Virusscanner start standaard om 17.00u, precies het moment dat ik standaard naar huis ga en mijn laptop in slaapstand zet. Is dat handig? Is een ander tijdstip, bijv. 12.15u niet een beter moment? _(niet echt probleem, maar toch ... ;)_
+_2017-11-21 MvA_ [should have]: Virusscanner start standaard om 17.00u, precies het moment dat ik standaard naar huis ga en mijn laptop in slaapstand zet. Is dat handig? Is een ander tijdstip, bijv. 12.15u niet een beter moment? _(niet echt probleem, maar toch ... ;)_
 
-_2017-11-29 MvA_: Bij het verbinden of verbreken van de VPN krijg ik regelmatig (maar niet altijd) de melding: `RES ONE Workspace - You are not allowed to use this application.`
+_2017-11-29 MvA_ [must have]: Bij het verbinden of verbreken van de VPN krijg ik regelmatig (maar niet altijd) de melding: `RES ONE Workspace - You are not allowed to use this application.`
 
 <img src="screenshot-res-not-allowed.png">
