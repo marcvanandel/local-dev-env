@@ -60,6 +60,8 @@ _2017-11-20 MvA_ [must have]: Desktop icon kan ik niet verwijderen (in dit geval
 > 1. `C:`
 > 1. `cd \Users\Public\Desktop`
 > 1. `del Evernote.lnk`
+> 
+> Via de Verkenner werkt het ook als in `C:\Users\Public\Desktop` de icons verwijderd worden.
 
 _2017-11-21 MvA_ [should have]: Virusscanner start standaard om 17.00u, precies het moment dat ik standaard naar huis ga en mijn laptop in slaapstand zet. Is dat handig? Is een ander tijdstip, bijv. 12.15u niet een beter moment? _(niet echt probleem, maar toch ... ;)_
 
