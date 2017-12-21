@@ -35,7 +35,7 @@ _2017-11-15 WvI_: Vanmorgen mocht ik mijn wachtwoord wijzigen. Nieuw wachtwoord 
 
 _(bevindingenlijst, eventueel aangevuld met screenshots)_
 
-_2017-10-26 MvA_ [must have]: Bij het inloggen én bij ontgrendelen (!) krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.
+_2017-10-26 MvA_ [must have]: <s>Bij het inloggen én bij ontgrendelen (!) krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.</s> _(het lijkt er op dat dit werd veroorzaakt doordat er twee laptops op mijn naam stonden in het systeem. De oude laptop ontkoppeld en opnieuw Sophos sync acties gedaan (incl. opnieuw opstarten) heeft dit probleem verholpen)_
 
 <img src="screenshot-logon-old-password.jpg" />
 
