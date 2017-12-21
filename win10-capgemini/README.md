@@ -35,10 +35,6 @@ _2017-11-15 WvI_: Vanmorgen mocht ik mijn wachtwoord wijzigen. Nieuw wachtwoord 
 
 _(bevindingenlijst, eventueel aangevuld met screenshots)_
 
-_2017-10-26 MvA_ [must have]: <s>Bij het inloggen én bij ontgrendelen (!) krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.</s> _(het lijkt er op dat dit werd veroorzaakt doordat er twee laptops op mijn naam stonden in het systeem. De oude laptop ontkoppeld en opnieuw Sophos sync acties gedaan (incl. opnieuw opstarten) heeft dit probleem verholpen)_
-
-<img src="screenshot-logon-old-password.jpg" />
-
 _2017-10-31 MvA_ [nice to have]: Banners voor Sophos Safe Guard uitgezet, want die komen vaak voorbij, zowel dat het wel gelukt is, als dat het niet gelukt is...
 
 _2017-10-31 MvA_ [should have]: `https://intranet.kadaster.nl` toegevoegd aan trusted sites voor intranet security zone (zie [wiki](http://wiki.cs.kadaster.nl/wiki/index.php/Wiki/Tips%26Tricks#Google_Chrome))
@@ -47,12 +43,9 @@ _2017-11-01 MvA_ [nice to have]: _Windows 10 Developer Mode_ geeft een error 'Ge
 
 <img src="screenshot-win10-dev-mode-error.png" />
 
-_2017-11-05 MvA_ [solved]: <s>Mail in MS Outlook is niet meer te openen en geeft een vreemde error:</s> _SOLVED: by Windows Update! (on 2017-11-06)_
-<img src="screenshot-outlook-error.png" />
-
 _2017-11-20 MvA_ [should have]: Bureaubladachtergrond blijft niet wat is ingesteld nadat opnieuw wordt opgestart (of af- en aanmelden). Dit is niet altijd zo. Het is onduidelijk wanneer en of dat wel of niet blijft staan. Dit had ik ook met het Windows 7 profiel.
 
-_2017-11-20 MvA_ [must have]: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
+_2017-11-20 MvA_ [must have | met workaround: should have]: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
 
 > Workaround oplossing:
 > 
@@ -65,6 +58,16 @@ _2017-11-20 MvA_ [must have]: Desktop icon kan ik niet verwijderen (in dit geval
 
 _2017-11-21 MvA_ [should have]: Virusscanner start standaard om 17.00u, precies het moment dat ik standaard naar huis ga en mijn laptop in slaapstand zet. Is dat handig? Is een ander tijdstip, bijv. 12.15u niet een beter moment? _(niet echt probleem, maar toch ... ;)_
 
-_2017-11-29 MvA_ [must have]: <s>Bij het verbinden of verbreken van de VPN krijg ik regelmatig (maar niet altijd) de melding: `RES ONE Workspace - You are not allowed to use this application.`</s> _(voorlopig opgelost. Er wordt op de achtergrond een script uitgevoerd onder onvoldoende rechten. Dat is uitgezet. Bij mij, Marc, lokaal is het script nog wel aanwezig op een of andere manier, maar goed, de melding blijft nu weg)_
+
+## Bevindingen opgelost
+
+_2017-10-26 MvA_ [solved]: <s>Bij het inloggen én bij ontgrendelen (!) krijg ik nog een rare melding over 'OLD password' ... maar dat is helemaal niet relevant. Door op 'Cancel' te klikken, kan ik wel gewoon door.</s> _(het lijkt er op dat dit werd veroorzaakt doordat er twee laptops op mijn naam stonden in het systeem. De oude laptop ontkoppeld en opnieuw Sophos sync acties gedaan (incl. opnieuw opstarten) heeft dit probleem verholpen)_
+
+<img src="screenshot-logon-old-password.jpg" />
+
+_2017-11-05 MvA_ [solved]: <s>Mail in MS Outlook is niet meer te openen en geeft een vreemde error:</s> _SOLVED: by Windows Update! (on 2017-11-06)_
+<img src="screenshot-outlook-error.png" />
+
+_2017-11-29 MvA_ [solved]: <s>Bij het verbinden of verbreken van de VPN krijg ik regelmatig (maar niet altijd) de melding: `RES ONE Workspace - You are not allowed to use this application.`</s> _(voorlopig opgelost. Er wordt op de achtergrond een script uitgevoerd onder onvoldoende rechten. Dat is uitgezet. Bij mij, Marc, lokaal is het script nog wel aanwezig op een of andere manier, maar goed, de melding blijft nu weg)_
 
 <img src="screenshot-res-not-allowed.png">
