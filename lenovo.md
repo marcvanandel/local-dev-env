@@ -39,6 +39,7 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
 - _[Chocolaty](https://chocolatey.org/install)_ (run in admin shell)
   - [Jekyll + Ruby (on Windows)](https://jekyllrb.com/docs/windows/#installation) _(hmm... dat werkt niet gelijk en gemakkelijk; over naar Docker image [jekyll/jekyll](https://hub.docker.com/r/jekyll/jekyll/)?)_
   - [Yarn](https://yarnpkg.com/en/) (alternative for NPM ;) ` choco install yarn`
+  - [Inkscape](https://inkscape.org/en/)
 
 
 **Environment Settings**
