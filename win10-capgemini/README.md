@@ -45,7 +45,7 @@ _2017-11-01 MvA_ [nice to have]: _Windows 10 Developer Mode_ geeft een error 'Ge
 
 _2017-11-20 MvA_ [should have]: Bureaubladachtergrond blijft niet wat is ingesteld nadat opnieuw wordt opgestart (of af- en aanmelden). Dit is niet altijd zo. Het is onduidelijk wanneer en of dat wel of niet blijft staan. Dit had ik ook met het Windows 7 profiel.
 
-_2017-11-20 MvA_ [must have | met workaround: should have]: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
+_2017-11-20 MvA_ [must have / met workaround: should have]: Desktop icon kan ik niet verwijderen (in dit geval Evernote)
 
 > Workaround oplossing:
 > 
