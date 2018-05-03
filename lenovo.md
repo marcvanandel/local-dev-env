@@ -24,6 +24,7 @@ Installed Windows installers (mostly) in `D:\Apps` (and sometimes in the default
   - [NodeJS](https://nodejs.org/en/download/)
   - [ProcessExplorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx)
   - [Local Docker Development Environment](http://github.so.kadaster.nl/javaexp/local-docker-dev-env) (incl VirtualBox) _(voor Windows 10: [Docker for Windows](https://www.docker.com/docker-windows) (Community Edition))
+  - [Python](https://www.python.org/downloads/windows/)
 - _Software_
   - [Sublime Text](https://www.sublimetext.com/)
   - [IntelliJ](https://www.jetbrains.com/idea/download/) (Ultimate Edition)
