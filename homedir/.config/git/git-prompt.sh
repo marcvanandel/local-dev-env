@@ -1,14 +1,3 @@
-if test -f /etc/profile.d/git-sdk.sh
-then
-	TITLEPREFIX=SDK-${MSYSTEM#MINGW}
-else
-	TITLEPREFIX=$MSYSTEM
-fi
-
-if test -f ~/.config/git/git-prompt.sh
-then
-	. ~/.config/git/git-prompt.sh
-else
 	PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]' # set window title
 	PS1="$PS1"'\n'                 # new line
 	PS1="$PS1"'\[\033[32m\]'       # change to green
@@ -35,6 +24,5 @@ else
 	PS1="$PS1"'\[\033[0m\]'        # change color
 	PS1="$PS1"'\n'                 # new line
 	PS1="$PS1"'$ '                 # prompt: always $
-fi
 
 MSYS2_PS1="$PS1"               # for detection by MSYS2 SDK's bash.basrc
