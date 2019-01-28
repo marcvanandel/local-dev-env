@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "setting java to [$1]"
+
+if [ "$1" == "10" ]; then
+    echo export JAVA_HOME=$JAVA_HOME_10
+    echo export PATH=$JAVA_HOME/bin:$PATH
+elif [ "$1" == "8" ]; then
+    export JAVA_HOME=$JAVA_HOME_8
+    export PATH=$JAVA_HOME/bin:$PATH
+else
+    echo "only java 8 and 10 are available; [$1] is not a valid version!"
+fi
