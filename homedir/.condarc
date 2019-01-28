@@ -1,0 +1,6 @@
+# ssl_verify: true
+channels:
+  - defaults
+proxy_servers:
+  http: http://ssl-proxy.cs.kadaster.nl:8080
+  https: https://ssl-proxy.cs.kadaster.nl:8080

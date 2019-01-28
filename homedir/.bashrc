@@ -16,9 +16,8 @@ export GROOVY_SCRIPT_HOME='/h/apps/scripts/'
 alias g='groovy /h/apps/scripts/g.groovy'
 alias deploy='g d *.war jap4'
 
-alias tcup='/d/apps/jboss-ews-2.0/tomcat7/bin/startup.sh'
-alias tcdown='/d/apps/jboss-ews-2.0/tomcat7/bin/shutdown.sh'
-alias tcclean='rm /d/apps/jboss-ews-2.0/tomcat7/logs/*'
+alias python='winpty python'
 
 eval "$(docker-machine env default --no-proxy --shell bash 2>/dev/null)"
 
+echo execute: conda activate
