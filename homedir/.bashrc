@@ -22,9 +22,11 @@ alias deploy='g d *.war jap4'
 
 alias python='winpty python'
 alias docker='winpty docker'
+alias vue='winpty vue.cmd'
 
 eval "$(docker-machine env default --no-proxy --shell bash 2>/dev/null)"
 
 # conda config
-. /c/tools/miniconda3/etc/profile.d/conda.sh
+. /c/tools/Anaconda3/etc/profile.d/conda.sh
+# . /c/tools/miniconda3/etc/profile.d/conda.sh
 echo execute: conda activate
