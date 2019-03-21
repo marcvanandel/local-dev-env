@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+CONFIG_DIR=/c/.data/docker-configs
+
+function print_usage {
+    echo "Usage: dockerx [OPTIONAL:host] <docker commands>"
+    echo ""
+    echo "To connect to a PLP Docker host. Download certs from 51234, place in CONFIG_DIR/[machine-name].[segment]"
+    echo "NOTE: CONFIG_DIR is currently set to [$CONFIG_DIR]"
+    echo ""
+    echo "With dockerx the first argument is supposed to be the host you want to connect to."
+    echo "Optionally you can set the env variable X_HOST to skip this argument and pass it through."
+    echo "export X_HOST=[machine-name].[segment]"
+    echo ""
+    echo "The <docker commands> are the commands you would like to execute on the host."
+    echo "See the docker commands documentation on the actual commands possible."
+    echo ""
+}
+
+if [ "$*" == "" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ] || [ "$1" == "--usage" ]
+ then
+    print_usage
+    exit 1
+fi
+
+if [[ "$X_HOST" == "" ]]; then
+    echo "WARNING: You didn't have /$X_HOST set, so assuming the first argument is the host."
+    echo "To suppress this message, do: export X_HOST=[machine-name].[segment]"
+    echo ""
+    X_HOST=$1
+    shift 1
+fi
+
+if [[ "$X_HOST" == "" ]]; then
+    echo "ERROR: \$X_HOST not set."
+    echo ""
+    print_usage
+    exit 1
+fi
+
+echo "using: X_HOST = $X_HOST"
+echo ""
+
+if [[ ! -f $CONFIG_DIR/$X_HOST/ca.pem ]] || [[ ! -f $CONFIG_DIR/$X_HOST/cert.pem ]] || [[ ! -f $CONFIG_DIR/$X_HOST/key.pem ]]
+ then
+    echo "ERROR: certificates for \$X_HOST not set."
+    echo "certificates could not be found at [$CONFIG_DIR/$X_HOST]"
+    echo ""
+    echo "expecting:"
+    echo "  [$CONFIG_DIR/$X_HOST/ca.pem]"
+    echo "  [$CONFIG_DIR/$X_HOST/cert.pem]"
+    echo "  [$CONFIG_DIR/$X_HOST/key.pem]"
+    echo ""
+    exit 1
+fi
+
+
+if [ "$*" == "" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ] || [ "$1" == "--usage" ]
+ then
+    print_usage
+    exit 1
+fi
+
+docker --tlsverify -H=$X_HOST.kadaster.nl:2376 --tlscacert=$CONFIG_DIR/$X_HOST/ca.pem --tlscert=$CONFIG_DIR/$X_HOST/cert.pem --tlskey=$CONFIG_DIR/$X_HOST/key.pem $*
