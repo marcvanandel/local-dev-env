@@ -568,12 +568,12 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="&lt;Startup&gt;" modified="2019-05-07 15:28:48" build="180626">
+				<key name="&lt;Startup&gt;" modified="2019-05-07 16:51:58" build="180626">
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Active" type="long" data="2"/>
+					<value name="Active" type="long" data="1"/>
 					<value name="Count" type="long" data="2"/>
-					<value name="Cmd1" type="string" data='-cur_console:b -cur_console:d:C:\.work -cur_console:C:C:\tools\Cmder\icons\cmder.ico cmd /c ""%ConEmuDir%\..\git-for-windows\bin\bash" --login -i"'/>
-					<value name="Cmd2" type="string" data='&gt; -cur_console:bs1T41V -cur_console:d:C:\.work -cur_console:C:C:\tools\Cmder\icons\cmder.ico cmd /c ""%ConEmuDir%\..\git-for-windows\bin\bash" --login -i"'/>
+					<value name="Cmd1" type="string" data='&gt; -cur_console:b -cur_console:d:C:\.work -cur_console:C:C:\tools\Cmder\icons\cmder.ico cmd /c ""%ConEmuDir%\..\git-for-windows\bin\bash" --login -i"'/>
+					<value name="Cmd2" type="string" data='-cur_console:bs1T41V -cur_console:d:C:\.work -cur_console:C:C:\tools\Cmder\icons\cmder.ico cmd /c ""%ConEmuDir%\..\git-for-windows\bin\bash" --login -i"'/>
 				</key>
 			</key>
 			<key name="Apps" modified="2018-02-22 06:05:13" build="171109">
