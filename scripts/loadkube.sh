@@ -23,7 +23,8 @@ BUNDLE_DIR="$CONFIG_DIR/$BUNDLE"
 
 echo "Loading bundle [$BUNDLE] from [$BUNDLE_DIR]"
 
-cd $BUNDLE_DIR
+pushd $BUNDLE_DIR
 . env.sh
+popd
 
 export KUBE_BUNDLE=$BUNDLE
