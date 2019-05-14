@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-CONFIG_DIR=/c/.kube
+CONFIG_DIR=/c/.data/kube
 
 function print_usage {
     echo "Usage: loadkube <kube bundle>"
