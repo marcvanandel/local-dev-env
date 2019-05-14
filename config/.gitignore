@@ -1,0 +1,4 @@
+# ignoring non configuration files
+.history
+settings
+*.cmd
