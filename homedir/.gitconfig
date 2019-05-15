@@ -2,8 +2,8 @@
 	name = andelm
 	email = Marc.vanAndel@kadaster.nl
 [http]
-proxy = http://www-proxy.cs.kadaster.nl:8082
+proxy = http://ssl-proxy.cs.kadaster.nl:8080
 [https]
-proxy = http://www-proxy.cs.kadaster.nl:8082
+proxy = http://ssl-proxy.cs.kadaster.nl:8080
 [http "http://github.so.kadaster.nl/"]
  proxy = ""
