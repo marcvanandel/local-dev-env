@@ -12,19 +12,23 @@ function print_usage {
     echo ""
 }
 
+function set_bundle() {
+    BUNDLE="$1"
+    BUNDLE_DIR="$CONFIG_DIR/$BUNDLE"
+
+    echo "Loading bundle [$BUNDLE] from [$BUNDLE_DIR]"
+
+    pushd $BUNDLE_DIR
+    . env.sh
+    popd
+
+    export KUBE_BUNDLE=$BUNDLE
+}
+
 if [ "$*" == "" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ] || [ "$1" == "--usage" ]
  then
     print_usage
-    exit 1
+ else
+    set_bundle
 fi
 
-BUNDLE="$1"
-BUNDLE_DIR="$CONFIG_DIR/$BUNDLE"
-
-echo "Loading bundle [$BUNDLE] from [$BUNDLE_DIR]"
-
-pushd $BUNDLE_DIR
-. env.sh
-popd
-
-export KUBE_BUNDLE=$BUNDLE
