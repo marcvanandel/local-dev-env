@@ -4,7 +4,7 @@
 	PS1="$PS1"'\u@\h '             # user@host<space>
 	PS1="$PS1"'\[\033[35m\]'       # change to purple
 	PS1="$PS1"'$MSYSTEM '          # show MSYSTEM
-	PS1="$PS1"'($CONDA_DEFAULT_ENV|$KUBE_BUNDLE) '          # show CONDA_DEFAULT_ENV
+	PS1="$PS1"'($CONDA_DEFAULT_ENV|$KUBE_CONTEXT) '          # show CONDA_DEFAULT_ENV
 	PS1="$PS1"'\[\033[33m\]'       # change to brownish yellow
 	PS1="$PS1"'\w'                 # current working directory
 	if test -z "$WINELOADERNOEXEC"
