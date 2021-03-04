@@ -15,8 +15,19 @@ sudo apt install gnome-disk-utility
 
 ## Installed software
 
-- [krew - kubectl package manager](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
-- [kubectx](https://github.com/ahmetb/kubectx) (with `krew`)
-- [kubens](https://github.com/ahmetb/kubectx) (with `krew`)
-- [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/.kube`)
+- kubernetes tools
+  - [krew - kubectl package manager](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
+  - [kubectx](https://github.com/ahmetb/kubectx) (with `krew`)
+  - [kubens](https://github.com/ahmetb/kubectx) (with `krew`)
+  - [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/.kube`)
 
+- npm
+  - [nodeenv](https://pypi.org/project/nodeenv/#local-installation)
+    
+    ```bash
+    $ virtualenv .venv-npm
+    
+    $ source .venv-npm/bin/activate
+    
+    $ pip install nodeenv
+    ```
