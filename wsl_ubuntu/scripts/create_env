@@ -1,0 +1,111 @@
+#!/bin/bash
+
+# settings
+VIRTUALENV_ENV='.venv'
+NODEENV_ENV='.nodeenv'
+ENVS_FOLDER='.envs'
+
+function create_env {
+    echo "- using name: $NAME"
+
+    echo
+    echo "- creating folder ~/projects/[$NAME]"
+    cd ~/projects
+    mkdir $NAME
+    cd $NAME
+
+    echo
+    echo "- creating virtualenv [$VIRTUALENV_ENV]"
+    virtualenv $VIRTUALENV_ENV
+
+    echo
+    echo "- installing nodeenv"
+    pip install nodeenv
+
+    echo
+    echo "- creating nodeenv [$NODEENV_ENV]"
+    nodeenv $NODEENV_ENV
+
+    cd ~
+
+    if [[ ! -d "$ENVS_FOLDER" ]]
+    then
+        echo "- creating environments folder [~/$ENVS_FOLDER]"
+        mkdir "$ENVS_FOLDER"
+    fi
+
+    echo "- creating env loading script"
+    ENV_FILE="$ENVS_FOLDER/$NAME"
+
+cat <<EOT >> $ENV_FILE
+#!/bin/bash -x
+echo "Loading environment [$NAME]"
+activate() {
+    cd ~/projects/$NAME
+    . .venv/bin/activate
+    . .nodeenv/bin/activate
+}
+
+activate
+EOT
+
+    echo
+    echo "load this new environment with: . $NAME"
+    echo
+}
+
+function clean_up_env {
+    echo "DELETING ... !!!"
+    
+    echo "- deleting folder ~/projects/[$NAME]"
+    cd ~/projects
+    rm -Rf $NAME
+
+    echo
+    echo "- deleting env ~/.envs/[$NAME]"
+    cd ~
+    rm $ENVS_FOLDER/$NAME
+}
+
+function print_manual {
+    echo 
+    echo create_env [name] [options]
+    echo
+    echo "Creating new local environments based on virtualenv and nodeenv"
+    echo
+    echo "usage: create_env [name]"
+    echo
+    echo "load after creation: . name"
+    echo
+    echo "  (including the precedint dot !!)"
+    echo
+    echo "- hidden option: -d    deletes an existing environment (INCLUDING ALL SUB FOLDERS!!!)"
+    echo
+}
+
+echo "Setting up a new environment!"
+echo
+
+NAME=$1
+if [[ "$NAME" == "" ]] 
+then
+    echo "ERROR No name provided to create environment for. Try 'create_env [name]'"
+    echo
+    print_manual
+    exit 1
+fi
+
+OPTION_DELETE=false
+if [[ "$2" == "-d" ]]
+then
+    OPTION_DELETE=true
+    echo "Do you wish to delete env [$NAME]?"
+    select yn in "Yes" "No"; do
+        case $yn in
+            Yes ) clean_up_env; break;;
+            No ) exit;;
+        esac
+    done
+else
+    create_env
+fi
