@@ -26,7 +26,7 @@ De volgende packages geïnstalleerd:
 ```
 sudo apt-get update
 sudo apt install virtualenv
-sudo apt install nmap
+sudo apt install nmp
 sudo apt install gnome-disk-utility
 ```
 
