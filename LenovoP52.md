@@ -44,6 +44,8 @@ Eerst heb ik [chocolatey](https://chocolatey.org/) geïnstalleerd. En vervolgens
 
 `choco feature enable -n useFipsCompliantChecksums`
 
+Start a PowerShell terminal with elevated rights: `Start-Process powershell -Verb runAs`
+
 ```
 choco install dropbox -y
 choco install keepass.install -y
