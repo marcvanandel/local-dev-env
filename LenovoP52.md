@@ -16,6 +16,13 @@ Dit kan worden 'uitgezet' met (zie [issue](https://github.com/git-for-windows/gi
 
 `export MSYS_NO_PATHCONV=1`
 
+### PowerShell
+
+Set up my PowerShell profile by:
+
+- open a PowerShell terminal
+- create a profile: `New-Item -path $profile -type file –force`
+- edit the profile (`code $profile`) and paste [this saved profile](windows/Microsoft.PowerShell_profile.ps1) into it
 
 ## Deleted
 
