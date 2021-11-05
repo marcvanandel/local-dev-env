@@ -1,0 +1,40 @@
+#!/bin/bash
+
+function update_dir_with_git_pull {
+
+    if [[ ! -d "$DIR" ]]
+    then
+        echo "[$DIR] is not a directory or does not exist"
+        exit 1
+    fi
+
+    echo "Updating [$DIR]"
+    echo
+
+    pushd $DIR
+
+    git pull
+
+    popd
+
+}
+
+function print_manual {
+    echo "---"
+    echo "USAGE: gitupdate [dir]"
+    echo
+    echo "Updates the given directory assuming this is a git repository root"
+    echo "---"
+    echo "Pro tip: For updating a directory containing git repos, execute: ls -d */ | xargs -n1 gitupdate"
+    echo
+}
+
+DIR=$1
+if [[ "$DIR" == "" ]] 
+then
+    echo "ERROR No dir provided to update. Try 'gitupdate [dir]'"
+    print_manual
+    exit 1
+fi
+
+update_dir_with_git_pull
