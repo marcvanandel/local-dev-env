@@ -19,6 +19,13 @@ $ create_env <env>
 $ . <env>
 ```
 
+Updating git repos (a.k.a. `git pull`) in a loop over multiple subdirectories:
+
+```bash
+$ ls -d */ | xargs -n1 gitupdate
+```
+
+
 ## Installed software
 
 De volgende packages geïnstalleerd:
