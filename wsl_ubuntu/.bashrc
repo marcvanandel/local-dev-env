@@ -126,11 +126,6 @@ fi
 # Set Maven HOME for Jetbrains Intellij support
 export M2_HOME=/home/marc/.sdkman/candidates/maven/current/
 
-alias proxy='export HTTP_PROXY=http://ssl-proxy.so.kadaster.nl:8080;export HTTPS_PROXY=${HTTP_PROXY};cp  ~/.m2/settings-kadaster.xml ~/.m2/settings.xml'
-alias noproxy='unset HTTP_PROXY;unset HTTPS_PROXY;cp  ~/.m2/settings-plain.xml ~/.m2/settings.xml'
-# alias proxy='export HTTP_PROXY=http://ssl-proxy.so.kadaster.nl:8080;export HTTPS_PROXY=${HTTP_PROXY};sed -i -e "s/gitssh/git-ssh/" ~/.ssh/config;cp  ~/.m2/settings-proxy.xml ~/.m2/settings.xml'
-# alias noproxy='unset HTTP_PROXY;unset HTTPS_PROXY;sed -i -e "s/git-ssh/gitssh/" ~/.ssh/config;cp  ~/.m2/settings-noproxy.xml ~/.m2/settings.xml'
-
 source <(kubectl completion bash)
 
 # krew manual installation and addition to path (MvA | d.d. 2 feb 2021)
