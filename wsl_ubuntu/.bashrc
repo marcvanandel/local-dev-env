@@ -138,14 +138,7 @@ alias kustomize='~/kustomize'
 
 alias update='sudo apt update && sudo apt upgrade'
 
-## load the private first time only (and reuse the ssh-agent!)
-if [ ! -S ~/.ssh/ssh_auth_sock ]; then
-  eval `ssh-agent`
-  ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
-fi
-export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
-ssh-add -l > /dev/null || ssh-add
-## end
+. ~/projects/repos/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh
 
 # manually added direnv hook
 eval "$(direnv hook bash)"
