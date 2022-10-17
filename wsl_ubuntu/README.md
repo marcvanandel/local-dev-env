@@ -14,15 +14,15 @@ WSL staat voor Windows Subsystem for Linux. Ik heb [Ubuntu WSL](https://wiki.ubu
 Smart creation and loading of virtual environments based on [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) and [nodeenv](https://pypi.org/project/nodeenv/#local-installation) by:
 
 ```bash
-$ create_env <env>
+create_env <env>
 
-$ . <env>
+. <env>
 ```
 
 Updating git repos (a.k.a. `git pull`) in a loop over multiple subdirectories:
 
 ```bash
-$ ls -d */ | xargs -n1 gitupdate
+ls -d */ | xargs -n1 gitupdate
 ```
 
 

@@ -123,6 +123,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Set Maven HOME for Jetbrains Intellij support
+export M2_HOME=/home/marc/.sdkman/candidates/maven/current/
+
 source <(kubectl completion bash)
 
 # krew manual installation and addition to path (MvA | d.d. 2 feb 2021)
@@ -135,9 +138,17 @@ alias kustomize='~/kustomize'
 
 alias update='sudo apt update && sudo apt upgrade'
 
-eval $(ssh-agent -s)
-alias lpk='ssh-add ~/.ssh/id_ecdsa'
-echo "Run lpk to load private key"
+## load the private first time only (and reuse the ssh-agent!)
+if [ ! -S ~/.ssh/ssh_auth_sock ]; then
+  eval `ssh-agent`
+  ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
+fi
+export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
+ssh-add -l > /dev/null || ssh-add
+## end
+
+# manually added direnv hook
+eval "$(direnv hook bash)"
 
 # for local npm test scripts using chrome
 export CHROME_BIN=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
