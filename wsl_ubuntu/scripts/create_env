@@ -16,7 +16,7 @@ function create_env {
 
     echo
     echo "- creating virtualenv [$VIRTUALENV_ENV]"
-    virtualenv $VIRTUALENV_ENV
+    python3 -m venv $VIRTUALENV_ENV
 
     echo
     echo "- installing nodeenv"
