@@ -16,7 +16,8 @@ function create_env {
 
     echo
     echo "- creating virtualenv [$VIRTUALENV_ENV]"
-    python3 -m venv $VIRTUALENV_ENV
+    pyenv virtualenv playground
+    pyenv shell playground
 
     echo
     echo "- installing nodeenv"
@@ -42,7 +43,7 @@ cat <<EOT >> $ENV_FILE
 echo "Loading environment [$NAME]"
 activate() {
     cd ~/projects/$NAME
-    . .venv/bin/activate
+    pyenv shell playground
     . .nodeenv/bin/activate
 }
 
@@ -57,14 +58,20 @@ EOT
 function clean_up_env {
     echo "DELETING ... !!!"
     
-    echo "- deleting folder ~/projects/[$NAME]"
+    echo
+    echo "- deleting pyenv virtualenv [$NAME]"
     cd ~/projects
-    rm -Rf $NAME
-
+    cd $NAME
+    pyenv uninstall -f $NAME
+    
     echo
     echo "- deleting env ~/.envs/[$NAME]"
     cd ~
     rm $ENVS_FOLDER/$NAME
+
+    echo "- deleting folder ~/projects/[$NAME]"
+    cd ~/projects
+    rm -Rf $NAME
 }
 
 function print_manual {
