@@ -43,7 +43,8 @@ De volgende packages geïnstalleerd:
 
 ```
 update
-sudo apt install python3-pip -y
+sudo apt-get -y install python3-pip
+sudo apt-get -y install podman
 ```
 
 - kubernetes tools
