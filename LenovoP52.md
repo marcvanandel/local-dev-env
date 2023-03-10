@@ -40,6 +40,7 @@ _not preferably ... but sometimes the only option ..._ :(
 - [Lenovo System Update](https://support.lenovo.com/nl/en/downloads/ds012808)
 - ~~[CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) (for SpaCy)~~
 - ~~[NVIDIA Quadro P1000 DCH driver](https://www.nvidia.com/Download/index.aspx?lang=en-us) _(current version: 430.64)_~~
+- [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/install)
 
 ### Microsoft Store
 
