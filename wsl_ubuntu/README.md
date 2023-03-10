@@ -2,12 +2,7 @@
 
 > [WSL2 memory settings](https://medium.com/@lewwybogus/how-to-stop-wsl2-from-hogging-all-your-ram-with-docker-d7846b9c5b37)
 
-WSL staat voor Windows Subsystem for Linux. Ik heb [Ubuntu WSL](https://wiki.ubuntu.com/WSL) geïnstalleerd (niet via Windows Store, want die werkt niet).
-
-## Env Set Up
-
-- copy-paste [this](.bashrc) `.bashrc` into `~`
-  - enabling all sorts of aliases and scripts to be run from this `scripts` folder
+WSL staat voor Windows Subsystem for Linux.
 
 ## Scripts
 
@@ -25,16 +20,31 @@ Updating git repos (a.k.a. `git pull`) in a loop over multiple subdirectories:
 ls -d */ | xargs -n1 gitupdate
 ```
 
+## Installation
+
+Geïnstalleerd mbv de [manual install](https://learn.microsoft.com/en-us/windows/wsl/install-manual). Ubuntu 22.04 LTS geïnstalleerd.
+
+## Env Set Up
+
+- this repo by:
+  ```bash
+  ## navigate to home dir
+  cd
+  git clone <url-to-this-repo>
+  ```
+- copy-paste [this](.bashrc) snippet at the bottom of `.bashrc` into `~`
+- enabling all sorts of aliases and scripts to be run from this `scripts` folder
 
 ## Installed software
 
 De volgende packages geïnstalleerd:
 
+- [pyenv](https://github.com/pyenv/pyenv) via [pyenv-installer](https://github.com/pyenv/pyenv-installer)
+
 ```
-sudo apt-get update
-sudo apt install virtualenv
-sudo apt install npm
-sudo apt install gnome-disk-utility
+update
+sudo apt-get -y install python3-pip
+sudo apt-get -y install podman
 ```
 
 - kubernetes tools
@@ -43,4 +53,4 @@ sudo apt install gnome-disk-utility
   - [kubens](https://github.com/ahmetb/kubectx) (with `krew`)
   - [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/.kube`)
 
-- npm -> with `create_env` [script](#scripts)
+- npm -> with `create_env` from [script](#scripts)
