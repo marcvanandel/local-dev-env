@@ -64,6 +64,7 @@ choco install procexp -y
 choco install google-backup-and-sync -y
 choco install gimp -y
 choco install brave -y
+choco install inkscape -y
 
 # IoT
 choco install arduino -y
