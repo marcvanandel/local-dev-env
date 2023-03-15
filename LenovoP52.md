@@ -42,6 +42,10 @@ _not preferably ... but sometimes the only option ..._ :(
 - ~~[NVIDIA Quadro P1000 DCH driver](https://www.nvidia.com/Download/index.aspx?lang=en-us) _(current version: 430.64)_~~
 - [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/install)
 - [Microsoft Office365 Language Pack (EN)](https://support.microsoft.com/en-us/office/language-accessory-pack-for-microsoft-365-82ee1236-0f9a-45ee-9c72-05b026ee809f)
+- 'Basic Typing Feature' for en-US using Deployment Image Servicing and Management (DISM) ([source](https://thommck.wordpress.com/2021/12/23/fix-emoji-search-in-windows-10/#dism)) (in `openadmin` PowerShell)
+  ```shell
+  DISM /Online /Add-Capability /CapabilityName:Language.Basic~~~en-US~0.0.1.0
+  ```
 
 ### Microsoft Store
 
