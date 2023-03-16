@@ -45,6 +45,10 @@ De volgende packages geïnstalleerd:
 update
 sudo apt-get -y install python3-pip
 sudo apt-get -y install podman
+
+# inside a virtual env
+# https://github.com/containers/podman-compose
+pip3 install podman-compose
 ```
 
 - kubernetes tools
