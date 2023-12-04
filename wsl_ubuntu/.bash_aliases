@@ -1,2 +1,4 @@
 alias update='sudo apt update -y && sudo apt upgrade -y'
-alias docker=podman
+
+## replaced podman with docker desktop (for kubernetes support) :-/
+# alias docker=podman
