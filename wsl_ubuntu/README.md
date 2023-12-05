@@ -6,7 +6,7 @@ WSL staat voor Windows Subsystem for Linux.
 
 ## Scripts
 
-Smart creation and loading of virtual environments based on [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) and [nodeenv](https://pypi.org/project/nodeenv/#local-installation) by:
+Smart creation and loading of virtual environments based on [pyenv-installer](https://github.com/pyenv/pyenv-installer) and [nodeenv](https://pypi.org/project/nodeenv/#local-installation) by:
 
 ```bash
 create_env <env>

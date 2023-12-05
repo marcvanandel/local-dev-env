@@ -19,10 +19,12 @@ export PATH="~/.envs:~/local-dev-env/wsl_ubuntu/scripts:$PATH"
 
 # python virtual envs
 export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # Load pyenv-virtualenv automatically by adding
 # the following to ~/.bashrc:
-
 eval "$(pyenv virtualenv-init -)"
+
+# Add krew to path
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
