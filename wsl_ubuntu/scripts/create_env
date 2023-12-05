@@ -15,9 +15,9 @@ function create_env {
     cd $NAME
 
     echo
-    echo "- creating virtualenv [$VIRTUALENV_ENV]"
-    pyenv virtualenv playground
-    pyenv shell playground
+    echo "- creating virtualenv [$NAME]"
+    pyenv virtualenv $NAME
+    pyenv shell $NAME
 
     echo
     echo "- installing nodeenv"
@@ -43,7 +43,7 @@ cat <<EOT >> $ENV_FILE
 echo "Loading environment [$NAME]"
 activate() {
     cd ~/projects/$NAME
-    pyenv shell playground
+    pyenv shell $NAME
     . .nodeenv/bin/activate
 }
 
