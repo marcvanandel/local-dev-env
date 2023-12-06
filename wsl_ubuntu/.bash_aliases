@@ -4,3 +4,5 @@ alias update='sudo apt update -y && sudo apt upgrade -y'
 # alias docker=podman
 
 alias k=kubectl
+alias kn=kubechn
+alias kc=kubechc
