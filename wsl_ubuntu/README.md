@@ -52,9 +52,10 @@ pip3 install podman-compose
 ```
 
 - kubernetes tools
-  - [krew - kubectl package manager](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
-  - [kubectx](https://github.com/ahmetb/kubectx) (with `krew`)
-  - [kubens](https://github.com/ahmetb/kubectx) (with `krew`)
+  - ~~[krew - kubectl package manager](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)~~
+  - ~~[kubectx](https://github.com/ahmetb/kubectx) (with `krew`)~~
+  - ~~[kubens](https://github.com/ahmetb/kubectx) (with `krew`)~~
+  - [kubech](https://github.com/DevOpsHiveHQ/kubech) (replaces `kubectx`/`kubens` 'cause per terminal)
   - [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/.kube`)
 
 - npm -> with `create_env` from [script](#scripts)

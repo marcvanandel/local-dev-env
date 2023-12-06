@@ -28,3 +28,7 @@ eval "$(pyenv virtualenv-init -)"
 
 # Add krew to path
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# use kubech (checked out at ~/.kubech)
+source ~/.kubech/kubech
+source ~/.kubech/completion/kubech.bash
