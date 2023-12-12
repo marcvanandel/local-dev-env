@@ -34,6 +34,15 @@ Geïnstalleerd mbv de [manual install](https://learn.microsoft.com/en-us/windows
   ```
 - copy-paste [this](.bashrc) snippet at the bottom of `.bashrc` into `~`
 - enabling all sorts of aliases and scripts to be run from this `scripts` folder
+- content of `/etc/wsl.conf` (and restart wsl after changing in PowerShell: `wsl --shutdown`)
+  ```bash
+  [boot]
+  systemd=true
+  
+  [automount]
+  enabled = true
+  options = "metadata,umask=22,fmask=11
+  ```
 
 ## Installed software
 
