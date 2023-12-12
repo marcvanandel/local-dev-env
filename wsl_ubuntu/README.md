@@ -66,5 +66,6 @@ pip3 install podman-compose
   - ~~[kubens](https://github.com/ahmetb/kubectx) (with `krew`)~~
   - [kubech](https://github.com/DevOpsHiveHQ/kubech) (replaces `kubectx`/`kubens` 'cause per terminal)
   - [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/.kube`)
+  - [helm](https://helm.sh/docs/intro/install/#from-script) (from script)
 
 - npm -> with `create_env` from [script](#scripts)
