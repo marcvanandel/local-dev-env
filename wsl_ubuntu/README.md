@@ -54,6 +54,8 @@ De volgende packages geïnstalleerd:
 update
 sudo apt-get -y install python3-pip
 sudo apt-get -y install podman
+sudo apt-get -y install unzip
+sudo apt-get -y install zip
 
 # inside a virtual env
 # https://github.com/containers/podman-compose
@@ -69,3 +71,4 @@ pip3 install podman-compose
   - [helm](https://helm.sh/docs/intro/install/#from-script) (from script)
 
 - npm -> with `create_env` from [script](#scripts)
+- [sdkman](https://sdkman.io/install) (using `curl -s "https://get.sdkman.io" | bash`)
