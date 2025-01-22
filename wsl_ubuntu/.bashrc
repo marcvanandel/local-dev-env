@@ -15,7 +15,7 @@ fi
 export PATH="~/.envs:~/local-dev-env/wsl_ubuntu/scripts:$PATH"
 
 # load private key
-. ~/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh
+alias loadkey=". ~/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh"
 
 # python virtual envs
 export PYENV_ROOT="$HOME/.pyenv"
@@ -32,3 +32,11 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # use kubech (checked out at ~/.kubech)
 source ~/.kubech/kubech
 source ~/.kubech/completion/kubech.bash
+
+# asdf
+. "$HOME/.asdf/asdf.sh"
+. "$HOME/.asdf/completions/asdf.bash"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
