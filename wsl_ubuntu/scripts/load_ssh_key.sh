@@ -23,10 +23,19 @@ load_ssh_agent_once() {
   fi
 }
 
-load_ssh_private_key() {
+reload_ssh_private_key() {
   echo "Loading private SSH key (or reuse loaded key(s))... "
   export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
-  ssh-add -l > /dev/null || ssh-add ~/.ssh/id_ecdsa
+  ssh-add -l > /dev/null || load_ssh_private_key
+}
+
+load_ssh_private_key() {
+  if [! $SKIP_LOAD_KEY]
+  then
+    ssh-add ~/.ssh/id_ecdsa
+  else
+    echo "-- Skip loading private key in automated "
+  fi
 }
 
 cleanup_gpg_lockfile() {
@@ -58,6 +67,13 @@ load_gpg_private_key() {
   ssh-add -l > /dev/null || ssh-add ~/.gpg/id_ecdsa
 }
 
+SKIP_LOAD_KEY=false
+if [[ "$1" == "-s" ]]
+then
+    SKIP_LOAD_KEY=true
+    echo "-- only reloading pre-loaded keys"
+fi
+
 check_ssh_process_and_clean_up
 load_ssh_agent_once
-load_ssh_private_key
+reload_ssh_private_key

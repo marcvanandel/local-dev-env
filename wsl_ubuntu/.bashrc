@@ -15,6 +15,7 @@ fi
 export PATH="~/.envs:~/local-dev-env/wsl_ubuntu/scripts:$PATH"
 
 # load private key
+. ~/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh -s
 alias loadkey=". ~/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh"
 
 # python virtual envs
