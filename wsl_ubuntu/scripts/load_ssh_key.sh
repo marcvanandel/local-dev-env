@@ -30,7 +30,7 @@ reload_ssh_private_key() {
 }
 
 load_ssh_private_key() {
-  if [! $SKIP_LOAD_KEY]
+  if [ "$SKIP_LOAD_KEY" = false ]
   then
     ssh-add ~/.ssh/id_ecdsa
   else
