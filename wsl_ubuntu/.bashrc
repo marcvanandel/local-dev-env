@@ -18,25 +18,9 @@ export PATH="~/.envs:~/local-dev-env/wsl_ubuntu/scripts:$PATH"
 . ~/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh -s
 alias loadkey=". ~/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh"
 
-# python virtual envs
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-# Load pyenv-virtualenv automatically by adding
-# the following to ~/.bashrc:
-eval "$(pyenv virtualenv-init -)"
-
-# Add krew to path
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-
-# use kubech (checked out at ~/.kubech)
-source ~/.kubech/kubech
-source ~/.kubech/completion/kubech.bash
-
 # asdf
-. "$HOME/.asdf/asdf.sh"
-. "$HOME/.asdf/completions/asdf.bash"
+export PATH="$HOME/.asdf:$HOME/.asdf/shims:$PATH"
+. <(asdf completion bash)
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"

@@ -14,18 +14,18 @@ function create_env {
     mkdir $NAME
     cd $NAME
 
-    echo
-    echo "- creating virtualenv [$NAME]"
-    pyenv virtualenv $NAME
-    pyenv shell $NAME
+    # echo
+    # echo "- creating virtualenv [$NAME]"
+    # pyenv virtualenv $NAME
+    # pyenv shell $NAME
 
-    echo
-    echo "- installing nodeenv"
-    pip install nodeenv
+    # echo
+    # echo "- installing nodeenv"
+    # pip install nodeenv
 
-    echo
-    echo "- creating nodeenv [$NODEENV_ENV]"
-    nodeenv $NODEENV_ENV
+    # echo
+    # echo "- creating nodeenv [$NODEENV_ENV]"
+    # nodeenv $NODEENV_ENV
 
     cd ~
 
@@ -43,8 +43,8 @@ cat <<EOT >> $ENV_FILE
 echo "Loading environment [$NAME]"
 activate() {
     cd ~/projects/$NAME
-    pyenv shell $NAME
-    . .nodeenv/bin/activate
+    # pyenv shell $NAME
+    # . .nodeenv/bin/activate
 }
 
 activate
@@ -58,11 +58,11 @@ EOT
 function clean_up_env {
     echo "DELETING ... !!!"
     
-    echo
-    echo "- deleting pyenv virtualenv [$NAME]"
-    cd ~/projects
-    cd $NAME
-    pyenv uninstall -f $NAME
+    # echo
+    # echo "- deleting pyenv virtualenv [$NAME]"
+    # cd ~/projects
+    # cd $NAME
+    # pyenv uninstall -f $NAME
     
     echo
     echo "- deleting env ~/.envs/[$NAME]"
