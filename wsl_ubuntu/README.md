@@ -73,3 +73,16 @@ pip3 install podman-compose
 - npm -> with `create_env` from [script](#scripts)
 - [sdkman](https://sdkman.io/install) (using `curl -s "https://get.sdkman.io" | bash`)
 - [asdf-vm](https://asdf-vm.com/guide/getting-started.html)
+
+## Issues
+
+- [Docker Desktop critical error on startup while calling WSL](https://github.com/docker/for-win/issues/14584#issuecomment-2697140998)
+    
+    Workaround solution:
+    
+    1. Open PowerShell (normal privilege level)
+    2. Mount by hand running the command:
+       ```bash
+       wsl.exe --mount --bare --vhd $HOME\AppData\Local\Docker\wsl\disk\docker_data.vhdx
+       ```
+    3. Start Docker Desktop 💪
