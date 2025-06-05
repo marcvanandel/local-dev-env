@@ -26,7 +26,19 @@ load_ssh_agent_once() {
 reload_ssh_private_key() {
   echo "Loading private SSH key (or reuse loaded key(s))... "
   export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
-  ssh-add -l > /dev/null || load_ssh_private_key
+  check_loaded_keys || load_ssh_private_key
+}
+
+check_loaded_keys() {
+  echo "-- loaded keys:"
+  KEYS=$(ssh-add -l)
+  echo $KEYS
+  if [[ "The agent has no identities." == "$KEYS" ]];
+  then
+    return 1
+  else
+    return 0
+  fi
 }
 
 load_ssh_private_key() {
