@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Fixing Docker Desktop ..."
+echo 
+echo "WARNING: Can't fix Docker Desktop mount from within WSL"
+echo
+echo "  - open Powershell and run:"
+echo "wsl --mount --bare --vhd \$HOME\\AppData\\Local\\Docker\\wsl\\disk\\docker_data.vhdx"
+echo
+echo "done"
