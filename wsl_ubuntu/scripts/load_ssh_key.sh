@@ -46,7 +46,7 @@ load_ssh_private_key() {
   then
     ssh-add ~/.ssh/id_ecdsa
   else
-    echo "-- Skip loading private key in automated "
+    echo "-- Skip loading private key in automated mode"
   fi
 }
 
