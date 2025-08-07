@@ -73,6 +73,11 @@ pip3 install podman-compose
 - npm -> with `create_env` from [script](#scripts)
 - [sdkman](https://sdkman.io/install) (using `curl -s "https://get.sdkman.io" | bash`)
 - [asdf-vm](https://asdf-vm.com/guide/getting-started.html)
+- [gh (GitHub CLI)](https://cli.github.com/) via asdf:
+  ```bash
+  asdf plugin add github-cli
+  asdf install github-cli latest -u
+  ```
 
 ## Issues
 
