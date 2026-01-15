@@ -78,6 +78,11 @@ pip3 install podman-compose
   asdf plugin add github-cli
   asdf install github-cli latest -u
   ```
+- [claude code](https://code.claude.com/docs/en/overview)
+  ```bash
+  # Install native version
+  curl -fsSL https://claude.ai/install.sh | bash
+  ```
 
 ## Issues
 

@@ -22,6 +22,20 @@ alias loadkey=". ~/local-dev-env/wsl_ubuntu/scripts/load_ssh_key.sh"
 export PATH="$HOME/.asdf:$HOME/.asdf/shims:$PATH"
 . <(asdf completion bash)
 
+# pnpm
+export PNPM_HOME="/home/marc/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# FVM
+export PATH="/home/marc/.fvm_flutter/bin:$PATH"
+
+# Claude native installation
+export PATH="$HOME/.local/bin:$PATH"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

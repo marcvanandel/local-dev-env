@@ -6,3 +6,6 @@ alias update='sudo apt update -y && sudo apt upgrade -y'
 alias k=kubectl
 alias kn=kubechn
 alias kc=kubechc
+
+alias flutter="fvm flutter"
+alias dart="fvm dart"
