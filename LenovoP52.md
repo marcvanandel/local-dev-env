@@ -46,6 +46,7 @@ _not preferably ... but sometimes the only option ..._ :(
   ```shell
   DISM /Online /Add-Capability /CapabilityName:Language.Basic~~~en-US~0.0.1.0
   ```
+- [Marktext](https://marktext.me/) - Simple and Elegant Markdown Editor
 
 ### Microsoft Store
 
