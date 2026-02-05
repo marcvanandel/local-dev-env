@@ -32,9 +32,17 @@ Geïnstalleerd mbv de [manual install](https://learn.microsoft.com/en-us/windows
   cd
   git clone <url-to-this-repo>
   ```
-- copy-paste [this](.bashrc) snippet at the bottom of `.bashrc` into `~`
-- enabling all sorts of aliases and scripts to be run from this `scripts` folder
-- content of `/etc/wsl.conf` (and restart wsl after changing in PowerShell: `wsl --shutdown`)
+- load `local-dev-env/.bashrc` into env by adding the following into `~/.bashrc`:
+  ```
+  #################################
+  ## load local-dev-env          ##
+  #################################
+
+  source local-dev-env/wsl_ubuntu/.bashrc
+  ```
+- reload environment by `. .bashrc` (in the `~` folder)
+- update the system: `update` (using your admin password)
+- [obsolete?] content of `/etc/wsl.conf` (and restart wsl after changing in PowerShell: `wsl --shutdown`)
   ```bash
   [boot]
   systemd=true
@@ -48,18 +56,25 @@ Geïnstalleerd mbv de [manual install](https://learn.microsoft.com/en-us/windows
 
 De volgende packages geïnstalleerd:
 
-- [pyenv](https://github.com/pyenv/pyenv) via [pyenv-installer](https://github.com/pyenv/pyenv-installer)
+- [sdkman](https://sdkman.io/install) (using `curl -s "https://get.sdkman.io" | bash`)
+- [asdf-vm](https://asdf-vm.com/guide/getting-started.html)
+  - download `amd64-linux` latest version into `~`
+  - extract `tar -xf asdf<fullname> -C .asdf`
+- [claude code](https://code.claude.com/docs/en/overview)
+  ```bash
+  # Install native version
+  curl -fsSL https://claude.ai/install.sh | bash
+  ```
+- [gh (GitHub CLI)](https://cli.github.com/) via asdf:
+  ```bash
+  asdf plugin add github-cli
+  asdf install github-cli latest -u
+  ```
 
 ```
 update
-sudo apt-get -y install python3-pip
-sudo apt-get -y install podman
 sudo apt-get -y install unzip
 sudo apt-get -y install zip
-
-# inside a virtual env
-# https://github.com/containers/podman-compose
-pip3 install podman-compose
 ```
 
 - kubernetes tools
@@ -71,18 +86,6 @@ pip3 install podman-compose
   - [helm](https://helm.sh/docs/intro/install/#from-script) (from script)
 
 - npm -> with `create_env` from [script](#scripts)
-- [sdkman](https://sdkman.io/install) (using `curl -s "https://get.sdkman.io" | bash`)
-- [asdf-vm](https://asdf-vm.com/guide/getting-started.html)
-- [gh (GitHub CLI)](https://cli.github.com/) via asdf:
-  ```bash
-  asdf plugin add github-cli
-  asdf install github-cli latest -u
-  ```
-- [claude code](https://code.claude.com/docs/en/overview)
-  ```bash
-  # Install native version
-  curl -fsSL https://claude.ai/install.sh | bash
-  ```
 
 ## Issues
 

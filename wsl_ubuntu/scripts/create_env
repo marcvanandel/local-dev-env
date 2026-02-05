@@ -5,7 +5,20 @@ VIRTUALENV_ENV='.venv'
 NODEENV_ENV='.nodeenv'
 ENVS_FOLDER='.envs'
 
+function prep_env {
+    cd ~
+
+    if [[ ! -d "projects" ]]
+    then
+        echo "- creating projects folder [~/projects]"
+        mkdir "projects"
+    fi
+
+}
+
 function create_env {
+    prep_env
+
     echo "- using name: $NAME"
 
     echo
@@ -87,11 +100,14 @@ function print_manual {
     echo "  (including the precedint dot !!)"
     echo
     echo "- hidden option: -d    deletes an existing environment (INCLUDING ALL SUB FOLDERS!!!)"
+    echo "                       usage: create_env [name] -d"
     echo
 }
 
 echo "Setting up a new environment!"
 echo
+
+
 
 NAME=$1
 if [[ "$NAME" == "" ]] 
