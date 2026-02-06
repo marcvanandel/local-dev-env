@@ -76,6 +76,11 @@ sudo apt-get -y install unzip
 sudo apt-get -y install zip
 ```
 
+## Fixes
+
+To access Docker Desktop Server the local user needed to be added to the `docker` group, see [ask
+Ubuntu](https://askubuntu.com/a/1187716).
+
 ## Previously
 
 > [WSL2 memory settings](https://medium.com/@lewwybogus/how-to-stop-wsl2-from-hogging-all-your-ram-with-docker-d7846b9c5b37)

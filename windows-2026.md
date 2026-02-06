@@ -12,5 +12,5 @@ A fresh installation on my fresh Windows device in 2026.
 - Logseq
 - Marktext
 - Git for Windows
-- Docker Desktop
+- Docker Desktop (for WSL see [fixes](./wsl_ubuntu/README.md#fixes))
 - [WSL](./wsl_ubuntu/README.md)
