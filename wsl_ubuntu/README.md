@@ -1,8 +1,20 @@
 # WSL 2 Ubuntu set up
 
-> [WSL2 memory settings](https://medium.com/@lewwybogus/how-to-stop-wsl2-from-hogging-all-your-ram-with-docker-d7846b9c5b37)
-
 WSL staat voor Windows Subsystem for Linux.
+
+## Installation
+
+In PowerShell:
+
+```powershell
+wsl --install ubuntu
+```
+
+Check version (in open wsl terminal):
+
+```bash
+lsb_release -a
+```
 
 ## Scripts
 
@@ -19,10 +31,6 @@ Updating git repos (a.k.a. `git pull`) in a loop over multiple subdirectories:
 ```bash
 ls -d */ | xargs -n1 gitupdate
 ```
-
-## Installation
-
-Geïnstalleerd mbv de [manual install](https://learn.microsoft.com/en-us/windows/wsl/install-manual). Ubuntu 22.04 LTS geïnstalleerd.
 
 ## Env Set Up
 
@@ -42,15 +50,6 @@ Geïnstalleerd mbv de [manual install](https://learn.microsoft.com/en-us/windows
   ```
 - reload environment by `. .bashrc` (in the `~` folder)
 - update the system: `update` (using your admin password)
-- [obsolete?] content of `/etc/wsl.conf` (and restart wsl after changing in PowerShell: `wsl --shutdown`)
-  ```bash
-  [boot]
-  systemd=true
-  
-  [automount]
-  enabled = true
-  options = "metadata,umask=22,fmask=11
-  ```
 
 ## Installed software
 
@@ -77,6 +76,24 @@ sudo apt-get -y install unzip
 sudo apt-get -y install zip
 ```
 
+## Previously
+
+> [WSL2 memory settings](https://medium.com/@lewwybogus/how-to-stop-wsl2-from-hogging-all-your-ram-with-docker-d7846b9c5b37)
+
+**Env set up**
+
+- [obsolete?] content of `/etc/wsl.conf` (and restart wsl after changing in PowerShell: `wsl --shutdown`)
+  ```bash
+  [boot]
+  systemd=true
+  
+  [automount]
+  enabled = true
+  options = "metadata,umask=22,fmask=11
+  ```
+
+**Installed software**
+
 - kubernetes tools
   - ~~[krew - kubectl package manager](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)~~
   - ~~[kubectx](https://github.com/ahmetb/kubectx) (with `krew`)~~
@@ -87,7 +104,7 @@ sudo apt-get -y install zip
 
 - npm -> with `create_env` from [script](#scripts)
 
-## Issues
+**Issues**
 
 - [Docker Desktop critical error on startup while calling WSL](https://github.com/docker/for-win/issues/14584#issuecomment-2697140998)
     
@@ -99,3 +116,4 @@ sudo apt-get -y install zip
        wsl.exe --mount --bare --vhd $HOME\AppData\Local\Docker\wsl\disk\docker_data.vhdx
        ```
     3. Start Docker Desktop 💪
+
