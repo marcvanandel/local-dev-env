@@ -2,8 +2,7 @@
 ## customization local-dev-env ##
 #################################
 
-# source ~/kube-ps1/kube-ps1.sh
-export kube_ps1="no kube"
+source ~/kube-ps1/kube-ps1.sh
 
 ## replace prompt layout above with this:
 # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;32m\] $(kube_ps1)$(__git_ps1)\[\033[00m\] \$ '
@@ -39,5 +38,5 @@ export PATH="/home/marc/.fvm_flutter/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/home/marc/.sdkman"
+[[ -s "/home/marc/.sdkman/bin/sdkman-init.sh" ]] && source "/home/marc/.sdkman/bin/sdkman-init.sh"

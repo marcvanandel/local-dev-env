@@ -69,6 +69,7 @@ De volgende packages geïnstalleerd:
   asdf plugin add github-cli
   asdf install github-cli latest -u
   ```
+- [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/kube-ps1`)
 
 ```
 update
@@ -104,7 +105,6 @@ Ubuntu](https://askubuntu.com/a/1187716).
   - ~~[kubectx](https://github.com/ahmetb/kubectx) (with `krew`)~~
   - ~~[kubens](https://github.com/ahmetb/kubectx) (with `krew`)~~
   - [kubech](https://github.com/DevOpsHiveHQ/kubech) (replaces `kubectx`/`kubens` 'cause per terminal)
-  - [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/.kube`)
   - [helm](https://helm.sh/docs/intro/install/#from-script) (from script)
 
 - npm -> with `create_env` from [script](#scripts)
