@@ -70,6 +70,10 @@ De volgende packages geïnstalleerd:
   asdf install github-cli latest -u
   ```
 - [kube-ps1](https://github.com/jonmosco/kube-ps1) (cloned in `~/kube-ps1`)
+- [ollama](https://ollama.com/download/linux):
+  ```bash
+  curl -fsSL https://ollama.com/install.sh | sh
+  ```
 
 ```
 update
