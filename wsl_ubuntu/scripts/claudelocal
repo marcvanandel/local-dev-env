@@ -1,0 +1,19 @@
+#!/bin/bash
+
+MODEL="${CLAUDE_LOCAL_MODEL:-qwen2.5-coder:14b}"
+
+# Start ollama server if not already running
+if ! pgrep -x "ollama" > /dev/null; then
+    echo "Starting ollama server..."
+    ollama serve &>/dev/null &
+    # Wait for it to be ready
+    for i in {1..10}; do
+        if ollama list &>/dev/null 2>&1; then
+            break
+        fi
+        sleep 1
+    done
+fi
+
+echo "Starting Claude Code with local model: $MODEL"
+claude --model "ollama/$MODEL" "$@"

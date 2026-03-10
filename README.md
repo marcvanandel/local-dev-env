@@ -5,6 +5,7 @@ personal use ... but please use for your benefit as well!
 
 - [Windows (2026)](windows-2026.md)
 - [WSL2](wsl_ubuntu/README.md)
+- [AI Agents](Agents.md)
 - (deprecated) [Lenovo P52](LenovoP52.md)
 
 ---
