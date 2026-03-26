@@ -9,3 +9,5 @@ alias kc=kubechc
 
 alias flutter="fvm flutter"
 alias dart="fvm dart"
+
+alias opruimen="git checkout main && git pull && git remote prune origin"
