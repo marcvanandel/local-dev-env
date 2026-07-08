@@ -74,6 +74,18 @@ De volgende packages geïnstalleerd:
   ```bash
   curl -fsSL https://ollama.com/install.sh | sh
   ```
+- `sbx` aka [Docker Sandboxes](https://www.docker.com/products/docker-sandboxes)
+  ```bash
+  ## ignore warning Docker Desktop is already installed, 'cause we still need to install sbx
+  curl -fsSL https://get.docker.com | sudo REPO_ONLY=1 sh
+  
+  sudo apt-get install docker-sbx
+  sudo usermod -aG kvm $USER
+  ```
+- [opencode](https://opencode.ai/)
+  ```bash
+  curl -fsSL https://opencode.ai/install | bash
+  ```
 
 ```
 update
